@@ -1,0 +1,57 @@
+\begin{thebibliography}{10}
+
+\bibitem{Friedkin01011990}
+Noah~E. Friedkin and Eugene~C. Johnsen.
+\newblock Social influence and opinions.
+\newblock {\em The Journal of Mathematical Sociology}, 15(3-4):193--206, 1990.
+
+\bibitem{Degroot01031974}
+Morris~H. Degroot.
+\newblock Reaching a consensus.
+\newblock {\em Journal of the American Statistical Association}, 69(345):118--121, 1974.
+
+\bibitem{Bullo_lecture}
+Francesco Bullo.
+\newblock {\em Lectures on Network Systems}.
+\newblock Kindle Direct Publishing, {1.7} edition, 2024.
+
+\bibitem{article}
+Noah~E. Friedkin and Eugene~C. Johnsen.
+\newblock Social influence networks and opinion change.
+\newblock {\em Advances in Group Processes}, 16, 01 1999.
+
+\bibitem{lovasz1993random}
+L.~Lov{\'a}sz.
+\newblock Random walks on graphs: A survey.
+\newblock {\em Combinatorics, Paul Erdos is Eighty}, 2(1):1--46, 1993.
+
+\bibitem{DeMarzo}
+Peter~M. DeMarzo, Dimitri Vayanos, and Jeffrey Zwiebel.
+\newblock Persuasion bias, social influence, and unidimensional opinions*.
+\newblock {\em The Quarterly Journal of Economics}, 118(3):909--968, 2003.
+
+\bibitem{Krause2000DiscreteNonlinearand}
+Ulrich Krause.
+\newblock A discrete nonlinear and non-autonomous model of consensus formation.
+\newblock In S.~Elyadi, G.~Ladas, J.~Popenda, and J.~Rakowski, editors, {\em Communications in Difference Equations}, pages 227--236. Gordon and Breach Pub., Amsterdam, 2000.
+
+\bibitem{Dittmer}
+Jan Dittmer.
+\newblock Consensus formation under bounded confidence.
+\newblock {\em Nonlinear Analysis}, 47, 08 2001.
+
+\bibitem{chen2019opiniondynamicsbackfireeffect}
+Xi~Chen, Panayiotis Tsaparas, Jefrey Lijffijt, and Tijl~De Bie.
+\newblock Opinion dynamics with backfire effect and biased assimilation, 2019.
+
+\bibitem{Parsegov_2017}
+Sergey~E. Parsegov, Anton~V. Proskurnikov, Roberto Tempo, and Noah~E. Friedkin.
+\newblock Novel multidimensional models of opinion dynamics in social networks.
+\newblock {\em IEEE Transactions on Automatic Control}, 62(5):2270–2285, 2017.
+
+\bibitem{Ye_2019}
+Mengbin Ye, Yuzhen Qin, Alain Govaert, Brian~D.O. Anderson, and Ming Cao.
+\newblock An influence network model to study discrepancies in expressed and private opinions.
+\newblock {\em Automatica}, 107:371–381, 2019.
+
+\end{thebibliography}

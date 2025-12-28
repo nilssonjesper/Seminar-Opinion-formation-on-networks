@@ -1,0 +1,62 @@
+@article{DING201962,
+title = {Consensus reaching in social network DeGroot Model: The roles of the Self-confidence and node degree},
+journal = {Information Sciences},
+volume = {486},
+pages = {62-72},
+year = {2019},
+issn = {0020-0255},
+doi = {https://doi.org/10.1016/j.ins.2019.02.028},
+url = {https://www.sciencedirect.com/science/article/pii/S0020025519301380},
+author = {Zhaogang Ding and Xia Chen and Yucheng Dong and Francisco Herrera},
+keywords = {Consensus, Opinion dynamics, Self-confidence, Node degree, Convergence speed},
+abstract = {In this paper, we investigate how the agent's self-confidence level and the node degree influence the consensus opinion formation and the consensus convergence speed in the social network DeGroot model. We find that (1) the higher self-confidence will increase the agent's importance degree to determine the consensus opinion, but will also slow down the convergence speed for all agents to be able to obtain consensus, and (2) it is conducive to accelerating the convergence speed to be able to reach a consensus where all agents can manage to balance self-confidence levels and node degrees in the social network.}
+}
+
+% potentiell nicht included
+@article{doi:10.1142/S0219525900000078,
+author = {Deffuant, Guillaume and Neau, David and Amblard, Frederic and Weisbuch, G\'{e}rard},
+title = {Mixing beliefs among interacting agents},
+journal = {Advances in Complex Systems},
+volume = {03},
+number = {01n04},
+pages = {87-98},
+year = {2000},
+doi = {10.1142/S0219525900000078},
+
+URL = {    
+        https://doi.org/10.1142/S0219525900000078
+},
+eprint = {   
+        https://doi.org/10.1142/S0219525900000078
+}
+,
+    abstract = { We present a model of opinion dynamics in which agents adjust continuous opinions as a result of random binary encounters whenever their difference in opinion is below a given threshold. High thresholds yield convergence of opinions towards an average opinion, whereas low thresholds result in several opinion clusters: members of the same cluster share the same opinion but are no longer influenced by members of other clusters. }
+}
+
+@article{
+doi:10.1073/pnas.1217220110,
+author = {Pranav Dandekar  and Ashish Goel  and David T. Lee },
+title = {Biased assimilation, homophily, and the dynamics of polarization},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {110},
+number = {15},
+pages = {5791-5796},
+year = {2013},
+doi = {10.1073/pnas.1217220110},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.1217220110},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.1217220110},
+abstract = {We study the issue of polarization in society through a model of opinion formation. We say an opinion formation process is polarizing if it results in increased divergence of opinions. Empirical studies have shown that homophily, i.e., greater interaction between like-minded individuals, results in polarization. However, we show that DeGroot’s well-known model of opinion formation based on repeated averaging can never be polarizing, even if individuals are arbitrarily homophilous. We generalize DeGroot’s model to account for a phenomenon well known in social psychology as biased assimilation: When presented with mixed or inconclusive evidence on a complex issue, individuals draw undue support for their initial position, thereby arriving at a more extreme opinion. We show that in a simple model of homophilous networks, our biased opinion formation process results in polarization if individuals are sufficiently biased. In other words, homophily alone, without biased assimilation, is not sufficient to polarize society. Quite interestingly, biased assimilation also provides a framework to analyze the polarizing effect of Internet-based recommender systems that show us personalized content.}}
+
+@article{DONG2017187,
+title = {Managing consensus based on leadership in opinion dynamics},
+journal = {Information Sciences},
+volume = {397-398},
+pages = {187-205},
+year = {2017},
+issn = {0020-0255},
+doi = {https://doi.org/10.1016/j.ins.2017.02.052},
+url = {https://www.sciencedirect.com/science/article/pii/S0020025517305534},
+author = {Yucheng Dong and Zhaogang Ding and Luis Martínez and Francisco Herrera},
+keywords = {Consensus, Opinion dynamics, Social network, Consensus strategy, Leadership},
+abstract = {Opinion dynamics investigates the fusion process of the opinion formation in a group of agents, and is a powerful tool for supporting the management of public opinions. However, in real-life situations, firms or administrations are not only interested in the formation of public opinions, but also hope to influence and guide the forming opinions to reach either a consensus or even more a specific consensus point. This paper aims at developing a consensus building process in opinion dynamics, based on the concept leadership, by analyzing the structure of the social network in which all agents can form a consensus. It is then proposed a strategy adding a minimum number of interactions in the social network to form a consensus based on leadership, and afterwards it is generalized the consensus strategy to deal with the consensus problem with an established target. Eventually, detailed theoretical proofs and numerical analysis are provided to demonstrate the feasibility and effectiveness of the consensus strategy.}
+}
