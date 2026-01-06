@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex paper"] 1767619101.80858 "paper.aux" "paper.bbl" "paper" 1767619343.02656 0
+["bibtex paper"] 1767714558.29025 "paper.aux" "paper.bbl" "paper" 1767716964.73955 0
   "./IEEEabrv.bib" 1168487024 17841 d1b6e95678a4492b1a7c620153c6aba2 ""
-  "./references.bib" 1766948587.02127 6200 aca8cf0323ceed748d87e145e6f6ead8 ""
+  "./references.bib" 1767712848.91914 6981 e0dbbfd2a8a58e599ce0dd1f370c219b ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "paper.aux" 1767619342.75408 9935 dc0e78912fdcd6fc1cb144408fc4decd "pdflatex"
+  "paper.aux" 1767716964.46028 10851 4f0b2b60a6e9e03b0a208f833cd09224 "pdflatex"
   (generated)
   "paper.bbl"
   "paper.blg"
   (rewritten before read)
-["pdflatex"] 1767619337.91788 "/Users/tapptop/Library/CloudStorage/OneDrive-StudentsRWTHAachenUniversity/S5/Seminar/github/Seminar-Opinion-formation-on-networks/paper_latex/paper.tex" "paper.pdf" "paper" 1767619343.02667 0
-  "/Users/tapptop/Library/CloudStorage/OneDrive-StudentsRWTHAachenUniversity/S5/Seminar/github/Seminar-Opinion-formation-on-networks/paper_latex/paper.tex" 1767619337.71529 61849 d5b4fae924f8dce615e8f6cf18406d79 ""
+["pdflatex"] 1767716959.45181 "/Users/tapptop/Library/CloudStorage/OneDrive-StudentsRWTHAachenUniversity/S5/Seminar/github/Seminar-Opinion-formation-on-networks/paper_latex/paper.tex" "paper.pdf" "paper" 1767716964.73968 0
+  "/Users/tapptop/Library/CloudStorage/OneDrive-StudentsRWTHAachenUniversity/S5/Seminar/github/Seminar-Opinion-formation-on-networks/paper_latex/paper.tex" 1767716959.25262 60726 9fa4bf9281e126076e6c61788a6417be ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -288,10 +288,10 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1763465811 3345745 187e1b721a2b754c3389ebc56f076663 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "IEEEtran.cls" 1756292373 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "paper.aux" 1767619342.75408 9935 dc0e78912fdcd6fc1cb144408fc4decd "pdflatex"
-  "paper.bbl" 1767619101.87556 2250 9a817663d2058d5ca425230f39f92a70 "bibtex paper"
-  "paper.out" 1767619342.75483 2598 d861d64fa47b9feacc0505feba014352 "pdflatex"
-  "paper.tex" 1767619337.71529 61849 d5b4fae924f8dce615e8f6cf18406d79 ""
+  "paper.aux" 1767716964.46028 10851 4f0b2b60a6e9e03b0a208f833cd09224 "pdflatex"
+  "paper.bbl" 1767714558.35651 2569 fb78bdf61a4c9db8f829af021dafae1a "bibtex paper"
+  "paper.out" 1767716964.46115 2507 b92114c3e56812b9e36611f885a46fb6 "pdflatex"
+  "paper.tex" 1767716959.25262 60726 9fa4bf9281e126076e6c61788a6417be ""
   "pictures/bounded_confs.png" 1765117553.13748 616137 0876514bea09673cab0d4b82bc768fd2 ""
   "pictures/convergence_high.png" 1765118365.27419 1092135 3583f5c545f645b39a4dce8572b732b2 ""
   "pictures/convergence_low.png" 1765117553.15022 1195173 631b94c0df0b94832642870e817a57ea ""

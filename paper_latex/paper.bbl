@@ -1,5 +1,15 @@
 \begin{thebibliography}{10}
 
+\bibitem{Voter-model}
+Sidney Redner.
+\newblock Reality-inspired voter models: {A} mini-review.
+\newblock {\em Comptes Rendus. Physique}, 20(4):275--292, 2019.
+
+\bibitem{Ising-model}
+Barry~A. Cipra.
+\newblock An introduction to the ising model.
+\newblock {\em The American Mathematical Monthly}, 94(10):937--959, 1987.
+
 \bibitem{Friedkin01011990}
 Noah~E. Friedkin and Eugene~C. Johnsen.
 \newblock Social influence and opinions.
@@ -15,15 +25,15 @@ Francesco Bullo.
 \newblock {\em Lectures on Network Systems}.
 \newblock Kindle Direct Publishing, {1.7} edition, 2024.
 
-\bibitem{lovasz1993random}
-L.~Lov{\'a}sz.
-\newblock Random walks on graphs: A survey.
-\newblock {\em Combinatorics, Paul Erdos is Eighty}, 2(1):1--46, 1993.
-
 \bibitem{DeMarzo}
 Peter~M. DeMarzo, Dimitri Vayanos, and Jeffrey Zwiebel.
 \newblock Persuasion bias, social influence, and unidimensional opinions*.
 \newblock {\em The Quarterly Journal of Economics}, 118(3):909--968, 2003.
+
+\bibitem{lovasz1993random}
+L.~Lov{\'a}sz.
+\newblock Random walks on graphs: A survey.
+\newblock {\em Combinatorics, Paul Erdos is Eighty}, 2(1):1--46, 1993.
 
 \bibitem{article}
 Noah~E. Friedkin and Eugene~C. Johnsen.
