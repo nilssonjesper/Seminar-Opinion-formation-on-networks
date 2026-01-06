@@ -15,11 +15,6 @@ Francesco Bullo.
 \newblock {\em Lectures on Network Systems}.
 \newblock Kindle Direct Publishing, {1.7} edition, 2024.
 
-\bibitem{article}
-Noah~E. Friedkin and Eugene~C. Johnsen.
-\newblock Social influence networks and opinion change.
-\newblock {\em Advances in Group Processes}, 16, 01 1999.
-
 \bibitem{lovasz1993random}
 L.~Lov{\'a}sz.
 \newblock Random walks on graphs: A survey.
@@ -29,6 +24,11 @@ L.~Lov{\'a}sz.
 Peter~M. DeMarzo, Dimitri Vayanos, and Jeffrey Zwiebel.
 \newblock Persuasion bias, social influence, and unidimensional opinions*.
 \newblock {\em The Quarterly Journal of Economics}, 118(3):909--968, 2003.
+
+\bibitem{article}
+Noah~E. Friedkin and Eugene~C. Johnsen.
+\newblock Social influence networks and opinion change.
+\newblock {\em Advances in Group Processes}, 16, 01 1999.
 
 \bibitem{Krause2000DiscreteNonlinearand}
 Ulrich Krause.

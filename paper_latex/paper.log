@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  28 DEC 2025 20:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  5 JAN 2026 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -718,8 +718,7 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count363
 \l__pdf_internal_box=\box74
-)
-No file paper.aux.
+) (./paper.aux)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -740,6 +739,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
+
 -- Lines per column: 61 (exact).
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -761,6 +761,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring ON on input line 88.
+ (./paper.out) (./paper.out)
 \@outlinefile=\write4
 \openout4 = `paper.out'.
 
@@ -792,23 +793,7 @@ File: upzd.fd 2001/06/04 font definitions for U/pzd.
 LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 102.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.03> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 102.
-
-
-LaTeX Warning: Citation `Friedkin01011990' on page 1 undefined on input line 109.
-
-
-LaTeX Warning: Citation `Degroot01031974' on page 1 undefined on input line 109.
-
-
-LaTeX Warning: Citation `Bullo_lecture' on page 1 undefined on input line 109.
-
-
-LaTeX Warning: Citation `Friedkin01011990' on page 1 undefined on input line 111.
-
-
-LaTeX Warning: Citation `article' on page 1 undefined on input line 111.
-
-LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 116.
+LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 117.
 
 
 
@@ -817,35 +802,14 @@ LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 116.
 
 
 ]
-
-LaTeX Warning: Reference `eq:iteration' on page 1 undefined on input line 152.
-
-
-LaTeX Warning: Citation `Degroot01031974' on page 2 undefined on input line 156.
-
-
-LaTeX Warning: Reference `eq:iteration' on page 1 undefined on input line 160.
-
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 178.
-
-LaTeX Warning: Reference `eq:convergence_matrix' on page 1 undefined on input line 179.
-
-<pictures/heatmap_convergence.jpg, id=32, 469.755pt x 266.9975pt>
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 179.
+<pictures/heatmap_convergence.jpg, id=98, 469.755pt x 266.9975pt>
 File: pictures/heatmap_convergence.jpg Graphic file (type jpg)
 <use pictures/heatmap_convergence.jpg>
-Package pdftex.def Info: pictures/heatmap_convergence.jpg  used on input line 183.
+Package pdftex.def Info: pictures/heatmap_convergence.jpg  used on input line 184.
 (pdftex.def)             Requested size: 164.41672pt x 93.45052pt.
 
-
-
-LaTeX Warning: Reference `fig:non_convergence_heatmap' on page 1 undefined on input line 198.
-
-
-LaTeX Warning: Citation `Bullo_lecture' on page 2 undefined on input line 221.
-
-
-LaTeX Warning: Reference `fig:non_convergence_heatmap' on page 1 undefined on input line 223.
 
 
 
@@ -853,108 +817,132 @@ LaTeX Warning: Reference `fig:non_convergence_heatmap' on page 1 undefined on in
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.227 \[
+l.228 \[
         \lim_{k\rightarrow\infty}\mat{A}^k = \mat T(\lim_{k\rightarrow\infty... <./pictures/heatmap_convergence.jpg>]
-
-LaTeX Warning: Reference `th:semi_conv' on page 1 undefined on input line 236.
-
-
-LaTeX Warning: Reference `th:semi_conv' on page 1 undefined on input line 245.
+Underfull \hbox (badness 1838) in paragraph at lines 275--277
+[]\OT1/ppl/m/n/9.53561 Therefore, ac-cord-ing to the Perron-Frobenius the-o-
+ []
 
 
-LaTeX Warning: Reference `th:perron-frobenius' on page 1 undefined on input line 253.
-
-
-LaTeX Warning: Reference `th:perron-frobenius' on page 1 undefined on input line 274.
-
-
-LaTeX Warning: Reference `th:semi_conv' on page 1 undefined on input line 274.
-
-
-LaTeX Warning: Reference `th:semi_conv' on page 1 undefined on input line 274.
-
-
-
-
-LaTeX Warning: Reference `sec:degroot' on page 1 undefined on input line 279.
-
-
-LaTeX Warning: Reference `def:irr_prim_mat' on page 1 undefined on input line 285.
-
-
-LaTeX Warning: Citation `Bullo_lecture' on page 3 undefined on input line 285.
-
-
-LaTeX Warning: Reference `eq:col_row_A^k' on page 1 undefined on input line 332.
 
 
 
 [3]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 324.
 
-LaTeX Warning: Reference `sec:reaching_consensus' on page 1 undefined on input line 358.
-
-
-LaTeX Warning: Reference `eq:col_row_A^k' on page 1 undefined on input line 358.
-
-
-LaTeX Warning: Reference `eq:limit_A' on page 1 undefined on input line 374.
-
-
-LaTeX Warning: Reference `eq:iteration' on page 1 undefined on input line 374.
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 399--400
-\OT1/ppl/m/n/9.53561 Finally, af-ter an-a-lyz-ing when and what con-sen-sus is
+Overfull \hbox (14.41614pt too wide) in paragraph at lines 324--324
+[][][]\OT1/ppl/m/n/9.53561 besser 
  []
 
 
-LaTeX Warning: Reference `sec:when_convergence' on page 1 undefined on input line 401.
+Overfull \hbox (4.95705pt too wide) in paragraph at lines 324--324
+\OT1/ppl/m/n/9.53561 mo- 
+ []
 
 
-LaTeX Warning: Citation `lovasz1993random' on page 4 undefined on input line 401.
+Overfull \hbox (20.48051pt too wide) in paragraph at lines 324--324
+\OT1/ppl/m/n/9.53561 tivieren[]  
+ []
 
 
-LaTeX Warning: Citation `DeMarzo' on page 4 undefined on input line 403.
+Overfull \hbox (14.41614pt too wide) in paragraph at lines 324--324
+[][][]\OT1/ppl/m/n/9.53561 besser 
+ []
+
+
+Overfull \hbox (4.95705pt too wide) in paragraph at lines 324--324
+\OT1/ppl/m/n/9.53561 mo- 
+ []
+
+
+Overfull \hbox (20.48051pt too wide) in paragraph at lines 324--324
+\OT1/ppl/m/n/9.53561 tivieren[]  
+ []
+
+
+Overfull \hbox (29.11986pt too wide) in paragraph at lines 337--337
+[][][]\OT1/ppl/m/n/9.53561 konkreter 
+ []
+
+
+Overfull \hbox (7.0929pt too wide) in paragraph at lines 337--337
+\OT1/ppl/m/n/9.53561 lem- 
+ []
+
+
+Overfull \hbox (9.21944pt too wide) in paragraph at lines 337--337
+\OT1/ppl/m/n/9.53561 mata 
+ []
+
+
+Overfull \hbox (7.52206pt too wide) in paragraph at lines 337--337
+\OT1/ppl/m/n/9.53561 oder 
+ []
+
+
+Overfull \hbox (3.11664pt too wide) in paragraph at lines 337--337
+\OT1/ppl/m/n/9.53561 fes- 
+ []
+
+
+Overfull \hbox (7.5315pt too wide) in paragraph at lines 337--337
+\OT1/ppl/m/n/9.53561 thal- 
+ []
+
+
+Overfull \hbox (5.61482pt too wide) in paragraph at lines 337--337
+\OT1/ppl/m/n/9.53561 ten?[]  
+ []
+
+
+Overfull \hbox (29.11986pt too wide) in paragraph at lines 337--337
+[][][]\OT1/ppl/m/n/9.53561 konkreter 
+ []
+
+
+Overfull \hbox (7.0929pt too wide) in paragraph at lines 337--337
+\OT1/ppl/m/n/9.53561 lem- 
+ []
+
+
+Overfull \hbox (9.21944pt too wide) in paragraph at lines 337--337
+\OT1/ppl/m/n/9.53561 mata 
+ []
+
+
+Overfull \hbox (7.52206pt too wide) in paragraph at lines 337--337
+\OT1/ppl/m/n/9.53561 oder 
+ []
+
+
+Overfull \hbox (3.11664pt too wide) in paragraph at lines 337--337
+\OT1/ppl/m/n/9.53561 fes- 
+ []
+
+
+Overfull \hbox (7.5315pt too wide) in paragraph at lines 337--337
+\OT1/ppl/m/n/9.53561 thal- 
+ []
+
+
+Overfull \hbox (5.61482pt too wide) in paragraph at lines 337--337
+\OT1/ppl/m/n/9.53561 ten?[]  
+ []
 
 
 
 
-LaTeX Warning: Reference `fig:convergence_speed_quick' on page 1 undefined on input line 405.
+Underfull \hbox (badness 1571) in paragraph at lines 400--401
+\OT1/ppl/m/n/9.53561 Finally, af-ter an-a-lyz-ing when and what con-sen-sus is
+ []
 
-
-LaTeX Warning: Reference `fig:convergence_speed_low' on page 1 undefined on input line 405.
-
-
-LaTeX Warning: Reference `fig:convergence_speed_quick' on page 1 undefined on input line 405.
-
-
-LaTeX Warning: Reference `fig:convergence_speed_low' on page 1 undefined on input line 405.
-
-
-LaTeX Warning: Reference `fig:convergence_speed_quick' on page 1 undefined on input line 405.
-
-
-LaTeX Warning: Reference `fig:convergence_speed_low' on page 1 undefined on input line 405.
-
-
-LaTeX Warning: Reference `fig:convergence_speed_quick' on page 1 undefined on input line 446.
-
-<pictures/convergence_low.png, id=72, 416.33542pt x 312.2064pt>
+<pictures/convergence_low.png, id=163, 416.33542pt x 312.2064pt>
 File: pictures/convergence_low.png Graphic file (type png)
 <use pictures/convergence_low.png>
-Package pdftex.def Info: pictures/convergence_low.png  used on input line 469.
+Package pdftex.def Info: pictures/convergence_low.png  used on input line 470.
 (pdftex.def)             Requested size: 208.16719pt x 156.10281pt.
 
-LaTeX Warning: Reference `tb:heatmap_low' on page 1 undefined on input line 470.
-
-
-LaTeX Warning: Reference `tb:heatmap_low' on page 1 undefined on input line 470.
-
-
-LaTeX Warning: Reference `fig:convergence_speed_low' on page 1 undefined on input line 474.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1642) has occurred while \output is active []
 
 
 
@@ -962,196 +950,81 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.487 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.487 
-       <./pictures/convergence_low.png>]
-<pictures/convergence_high.png, id=90, 617.96872pt x 378.99593pt>
+l.474 
+      ]
+<pictures/convergence_high.png, id=189, 617.96872pt x 378.99593pt>
 File: pictures/convergence_high.png Graphic file (type png)
 <use pictures/convergence_high.png>
-Package pdftex.def Info: pictures/convergence_high.png  used on input line 490.
+Package pdftex.def Info: pictures/convergence_high.png  used on input line 491.
 (pdftex.def)             Requested size: 253.3688pt x 155.38933pt.
 
-
-LaTeX Warning: Reference `tb:heatmap_high' on page 1 undefined on input line 491.
-
-
-LaTeX Warning: Reference `tb:heatmap_high' on page 1 undefined on input line 491.
-
-
-LaTeX Warning: Reference `sec:reaching_consensus' on page 1 undefined on input line 496.
-
-
-LaTeX Warning: Reference `sec:reaching_consensus' on page 1 undefined on input line 499.
-
-
-LaTeX Warning: Citation `Bullo_lecture' on page 5 undefined on input line 499.
-
-
-LaTeX Warning: Reference `sec:prelim_notation' on page 1 undefined on input line 499.
-
-
-LaTeX Warning: Reference `th:semi_conv' on page 1 undefined on input line 499.
-
-
-LaTeX Warning: Reference `eq:limit_P' on page 1 undefined on input line 503.
-
-
-
-
-LaTeX Warning: Citation `Bullo_lecture' on page 5 undefined on input line 505.
-
-
-LaTeX Warning: Citation `lovasz1993random' on page 5 undefined on input line 509.
-
-
-LaTeX Warning: Reference `sec:speed_convergence' on page 1 undefined on input line 511.
-
-
-LaTeX Warning: Reference `sec:degroot' on page 1 undefined on input line 543.
-
-
-LaTeX Warning: Reference `eq:iteration' on page 1 undefined on input line 543.
-
-
-LaTeX Warning: Citation `Friedkin01011990' on page 5 undefined on input line 548.
-
-
-LaTeX Warning: Citation `article' on page 5 undefined on input line 548.
 
 
 
 [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.513 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.549 
+l.513 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.549 
-       <./pictures/convergence_high.png>]
-
-LaTeX Warning: Reference `sec:degroot' on page 1 undefined on input line 557.
-
-
-LaTeX Warning: Reference `eq:iteration_friekdin_johnson' on page 1 undefined on input line 563.
-
-
-LaTeX Warning: Reference `eq:convergence' on page 1 undefined on input line 571.
-
-
-LaTeX Warning: Reference `eq:iteration_friekdin_johnson' on page 1 undefined on input line 581.
-
-
-LaTeX Warning: Reference `eq:iteration' on page 1 undefined on input line 581.
-
-
-LaTeX Warning: Citation `Bullo_lecture' on page 6 undefined on input line 581.
-
-
-
-
-LaTeX Warning: Reference `eq:continuous_iteration_friedkin_johnson' on page 1 undefined on input line 586.
-
-
-LaTeX Warning: Citation `article' on page 6 undefined on input line 586.
-
-
-LaTeX Warning: Reference `eq:iteration' on page 1 undefined on input line 615.
-
-
-LaTeX Warning: Citation `Krause2000DiscreteNonlinearand' on page 6 undefined on input line 619.
-
-
-LaTeX Warning: Citation `Dittmer' on page 6 undefined on input line 619.
-
-/Users/tapptop/Library/CloudStorage/OneDrive-StudentsRWTHAachenUniversity/S5/Seminar/github/Seminar-Opinion-formation-on-networks/paper_latex/paper.tex:628: Missing $ inserted.
-<inserted text> 
-                $
-l.628     Let us assume that p_
-                               k are $\epsilon_{max}$-chains for all revisio...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/tapptop/Library/CloudStorage/OneDrive-StudentsRWTHAachenUniversity/S5/Seminar/github/Seminar-Opinion-formation-on-networks/paper_latex/paper.tex:628: Missing $ inserted.
-<inserted text> 
-                $
-l.628     Let us assume that p_k are $\epsilon
-                                              _{max}$-chains for all revisio...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-<pictures/bounded_confs.png, id=100, 416.33542pt x 312.2064pt>
-File: pictures/bounded_confs.png Graphic file (type png)
-<use pictures/bounded_confs.png>
-Package pdftex.def Info: pictures/bounded_confs.png  used on input line 634.
-(pdftex.def)             Requested size: 208.16719pt x 156.10281pt.
-
-LaTeX Warning: Reference `tb:heatmap_low' on page 1 undefined on input line 635.
-
-
-LaTeX Warning: Reference `tb:heatmap_low' on page 1 undefined on input line 635.
+l.513 
+       <./pictures/convergence_low.png> <./pictures/convergence_high.png>]
 
 
 
 [6]
+<pictures/bounded_confs.png, id=235, 416.33542pt x 312.2064pt>
+File: pictures/bounded_confs.png Graphic file (type png)
+<use pictures/bounded_confs.png>
+Package pdftex.def Info: pictures/bounded_confs.png  used on input line 639.
+(pdftex.def)             Requested size: 208.16719pt x 156.10281pt.
 
-LaTeX Warning: Citation `chen2019opiniondynamicsbackfireeffect' on page 7 undefined on input line 653.
+Underfull \vbox (badness 3668) has occurred while \output is active []
 
 
-LaTeX Warning: Citation `Parsegov_2017' on page 7 undefined on input line 653.
-
-
-LaTeX Warning: Citation `Ye_2019' on page 7 undefined on input line 653.
 
 (./paper.bbl
-
-)
 
 [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.660 \end{document}
-                     <./pictures/bounded_confs.png>] (./paper.aux)
+l.51 
+      <./pictures/bounded_confs.png>])
+
+
+
+[8
+
+] (./paper.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `paper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `paper.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  5F258202AD8A7E93D5CAE0BDD778F124;2598.
+Package rerunfilecheck Info: File `paper.out' has not changed.
+(rerunfilecheck)             Checksum: D861D64FA47B9FEACC0505FEBA014352;2598.
  ) 
 Here is how much of TeX's memory you used:
- 36987 strings out of 473190
- 861364 string characters out of 5715799
- 1381837 words of memory out of 5000000
- 59591 multiletter control sequences out of 15000+600000
- 613077 words of font info for 165 fonts, out of 8000000 for 9000
+ 37130 strings out of 473190
+ 864465 string characters out of 5715799
+ 1385837 words of memory out of 5000000
+ 59726 multiletter control sequences out of 15000+600000
+ 612468 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,19n,101p,1213b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,101p,1948b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (7 pages, 3212499 bytes).
+Output written on paper.pdf (8 pages, 3222197 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 68 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 402 PDF objects out of 1000 (max. 8388607)
+ 318 compressed objects within 4 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
