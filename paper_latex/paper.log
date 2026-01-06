@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  6 JAN 2026 18:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  6 JAN 2026 20:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -870,142 +870,142 @@ Package pdftex.def Info: pictures/heatmap_convergence.jpg  used on input line 18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.228 \[
+l.229 \[
         \lim_{k\rightarrow\infty}\mat{A}^k = \mat T(\lim_{k\rightarrow\infty... <./pictures/heatmap_convergence.jpg>]
 
 
-Overfull \hbox (24.75232pt too wide) in paragraph at lines 286--286
+Overfull \hbox (24.75232pt too wide) in paragraph at lines 289--289
 [][][]\OT1/ppl/m/n/9.53561 intuition[]  
  []
 
 
-Overfull \hbox (24.75232pt too wide) in paragraph at lines 286--286
+Overfull \hbox (24.75232pt too wide) in paragraph at lines 289--289
 [][][]\OT1/ppl/m/n/9.53561 intuition[]  
  []
 
 
-Overfull \hbox (14.41614pt too wide) in paragraph at lines 324--324
+Overfull \hbox (14.41614pt too wide) in paragraph at lines 327--327
 [][][]\OT1/ppl/m/n/9.53561 besser 
  []
 
 
-Overfull \hbox (4.95705pt too wide) in paragraph at lines 324--324
+Overfull \hbox (4.95705pt too wide) in paragraph at lines 327--327
 \OT1/ppl/m/n/9.53561 mo- 
  []
 
 
-Overfull \hbox (20.48051pt too wide) in paragraph at lines 324--324
+Overfull \hbox (20.48051pt too wide) in paragraph at lines 327--327
 \OT1/ppl/m/n/9.53561 tivieren[]  
  []
 
 
-Overfull \hbox (14.41614pt too wide) in paragraph at lines 324--324
+Overfull \hbox (14.41614pt too wide) in paragraph at lines 327--327
 [][][]\OT1/ppl/m/n/9.53561 besser 
  []
 
 
-Overfull \hbox (4.95705pt too wide) in paragraph at lines 324--324
+Overfull \hbox (4.95705pt too wide) in paragraph at lines 327--327
 \OT1/ppl/m/n/9.53561 mo- 
  []
 
 
-Overfull \hbox (20.48051pt too wide) in paragraph at lines 324--324
+Overfull \hbox (20.48051pt too wide) in paragraph at lines 327--327
 \OT1/ppl/m/n/9.53561 tivieren[]  
  []
 
 
 
 [3]
-Overfull \hbox (29.11986pt too wide) in paragraph at lines 337--337
+Overfull \hbox (29.11986pt too wide) in paragraph at lines 340--340
 [][][]\OT1/ppl/m/n/9.53561 konkreter 
  []
 
 
-Overfull \hbox (7.0929pt too wide) in paragraph at lines 337--337
+Overfull \hbox (7.0929pt too wide) in paragraph at lines 340--340
 \OT1/ppl/m/n/9.53561 lem- 
  []
 
 
-Overfull \hbox (9.21944pt too wide) in paragraph at lines 337--337
+Overfull \hbox (9.21944pt too wide) in paragraph at lines 340--340
 \OT1/ppl/m/n/9.53561 mata 
  []
 
 
-Overfull \hbox (7.52206pt too wide) in paragraph at lines 337--337
+Overfull \hbox (7.52206pt too wide) in paragraph at lines 340--340
 \OT1/ppl/m/n/9.53561 oder 
  []
 
 
-Overfull \hbox (3.11664pt too wide) in paragraph at lines 337--337
+Overfull \hbox (3.11664pt too wide) in paragraph at lines 340--340
 \OT1/ppl/m/n/9.53561 fes- 
  []
 
 
-Overfull \hbox (7.5315pt too wide) in paragraph at lines 337--337
+Overfull \hbox (7.5315pt too wide) in paragraph at lines 340--340
 \OT1/ppl/m/n/9.53561 thal- 
  []
 
 
-Overfull \hbox (5.61482pt too wide) in paragraph at lines 337--337
+Overfull \hbox (5.61482pt too wide) in paragraph at lines 340--340
 \OT1/ppl/m/n/9.53561 ten?[]  
  []
 
 
-Overfull \hbox (29.11986pt too wide) in paragraph at lines 337--337
+Overfull \hbox (29.11986pt too wide) in paragraph at lines 340--340
 [][][]\OT1/ppl/m/n/9.53561 konkreter 
  []
 
 
-Overfull \hbox (7.0929pt too wide) in paragraph at lines 337--337
+Overfull \hbox (7.0929pt too wide) in paragraph at lines 340--340
 \OT1/ppl/m/n/9.53561 lem- 
  []
 
 
-Overfull \hbox (9.21944pt too wide) in paragraph at lines 337--337
+Overfull \hbox (9.21944pt too wide) in paragraph at lines 340--340
 \OT1/ppl/m/n/9.53561 mata 
  []
 
 
-Overfull \hbox (7.52206pt too wide) in paragraph at lines 337--337
+Overfull \hbox (7.52206pt too wide) in paragraph at lines 340--340
 \OT1/ppl/m/n/9.53561 oder 
  []
 
 
-Overfull \hbox (3.11664pt too wide) in paragraph at lines 337--337
+Overfull \hbox (3.11664pt too wide) in paragraph at lines 340--340
 \OT1/ppl/m/n/9.53561 fes- 
  []
 
 
-Overfull \hbox (7.5315pt too wide) in paragraph at lines 337--337
+Overfull \hbox (7.5315pt too wide) in paragraph at lines 340--340
 \OT1/ppl/m/n/9.53561 thal- 
  []
 
 
-Overfull \hbox (5.61482pt too wide) in paragraph at lines 337--337
+Overfull \hbox (5.61482pt too wide) in paragraph at lines 340--340
 \OT1/ppl/m/n/9.53561 ten?[]  
  []
 
 
-Overfull \hbox (24.75232pt too wide) in paragraph at lines 393--393
+Overfull \hbox (24.75232pt too wide) in paragraph at lines 396--396
 [][][]\OT1/ppl/m/n/9.53561 intuition[]  
  []
 
 
-Overfull \hbox (24.75232pt too wide) in paragraph at lines 393--393
+Overfull \hbox (24.75232pt too wide) in paragraph at lines 396--396
 [][][]\OT1/ppl/m/n/9.53561 intuition[]  
  []
 
 
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 397--398
+Underfull \hbox (badness 1571) in paragraph at lines 400--401
 \OT1/ppl/m/n/9.53561 Finally, af-ter an-a-lyz-ing when and what con-sen-sus is
  []
+
+
 
 <pictures/convergence_low.png, id=171, 416.33542pt x 312.2064pt>
 File: pictures/convergence_low.png Graphic file (type png)
 <use pictures/convergence_low.png>
-Package pdftex.def Info: pictures/convergence_low.png  used on input line 472.
+Package pdftex.def Info: pictures/convergence_low.png  used on input line 475.
 (pdftex.def)             Requested size: 208.16719pt x 156.10281pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1016,44 +1016,44 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.476 
+l.479 
       ]
 <pictures/convergence_high.png, id=194, 617.96872pt x 378.99593pt>
 File: pictures/convergence_high.png Graphic file (type png)
 <use pictures/convergence_high.png>
-Package pdftex.def Info: pictures/convergence_high.png  used on input line 493.
+Package pdftex.def Info: pictures/convergence_high.png  used on input line 496.
 (pdftex.def)             Requested size: 253.3688pt x 155.38933pt.
 
-Overfull \hbox (16.69508pt too wide) in paragraph at lines 502--502
+
+
+Overfull \hbox (16.69508pt too wide) in paragraph at lines 507--507
 [][][]\OT1/ppl/m/n/9.53561 pr[]ufen 
  []
 
 
-Overfull \hbox (5.80573pt too wide) in paragraph at lines 502--502
+Overfull \hbox (5.80573pt too wide) in paragraph at lines 507--507
 \OT1/ppl/m/n/9.53561 Satz 
  []
 
 
-Overfull \hbox (2.31555pt too wide) in paragraph at lines 502--502
+Overfull \hbox (2.31555pt too wide) in paragraph at lines 507--507
 \OT1/ppl/m/n/9.53561 gut 
  []
 
 
-Overfull \hbox (16.69508pt too wide) in paragraph at lines 502--502
+Overfull \hbox (16.69508pt too wide) in paragraph at lines 507--507
 [][][]\OT1/ppl/m/n/9.53561 pr[]ufen 
  []
 
 
-Overfull \hbox (5.80573pt too wide) in paragraph at lines 502--502
+Overfull \hbox (5.80573pt too wide) in paragraph at lines 507--507
 \OT1/ppl/m/n/9.53561 Satz 
  []
 
 
-Overfull \hbox (2.31555pt too wide) in paragraph at lines 502--502
+Overfull \hbox (2.31555pt too wide) in paragraph at lines 507--507
 \OT1/ppl/m/n/9.53561 gut 
  []
-
-
 
 
 
@@ -1061,30 +1061,27 @@ Overfull \hbox (2.31555pt too wide) in paragraph at lines 502--502
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.515 
+l.520 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.515 
+l.520 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.515 
+l.520 
        <./pictures/convergence_low.png> <./pictures/convergence_high.png>]
 
 
 
 [6]
-<pictures/bounded_confs.png, id=242, 400.3758pt x 312.2064pt>
+<pictures/bounded_confs.png, id=243, 400.3758pt x 312.2064pt>
 File: pictures/bounded_confs.png Graphic file (type png)
 <use pictures/bounded_confs.png>
-Package pdftex.def Info: pictures/bounded_confs.png  used on input line 640.
+Package pdftex.def Info: pictures/bounded_confs.png  used on input line 646.
 (pdftex.def)             Requested size: 200.1874pt x 156.10281pt.
-
-Underfull \vbox (badness 3792) has occurred while \output is active []
-
 
 
 (./paper.bbl
@@ -1093,8 +1090,8 @@ Underfull \vbox (badness 3792) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.52 
-      <./pictures/bounded_confs.png>])
+l.53 ...tem{chen2019opiniondynamicsbackfireeffect}
+                                                   <./pictures/bounded_confs.png>])
 
 
 
@@ -1116,11 +1113,11 @@ Here is how much of TeX's memory you used:
  612468 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,101p,1904b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (8 pages, 3144904 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on paper.pdf (8 pages, 3136956 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 327 compressed objects within 4 object streams
+ 405 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
  77 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
