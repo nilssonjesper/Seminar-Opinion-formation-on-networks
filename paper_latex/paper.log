@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  17 JAN 2026 23:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  18 JAN 2026 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -707,18 +707,19 @@ File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.coltype.code.tex)))
 \c@theorem=\count358
 \c@corollary=\count359
-\c@definition=\count360
+\c@lemma=\count360
+\c@definition=\count361
  (/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip69
 \enit@outerparindent=\dimen326
 \enit@toks=\toks56
 \enit@inbox=\box73
-\enit@count@id=\count361
-\enitdp@description=\count362
+\enit@count@id=\count362
+\enitdp@description=\count363
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count363
+\l__color_backend_stack_int=\count364
 \l__pdf_internal_box=\box74
 ) (./paper.aux)
 \openout1 = `paper.aux'.
@@ -745,16 +746,16 @@ LaTeX Font Info:    ... okay on input line 88.
 -- Lines per column: 61 (exact).
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
+\scratchcounter=\count365
 \scratchdimen=\dimen327
 \scratchbox=\box75
-\nofMPsegments=\count365
-\nofMParguments=\count366
+\nofMPsegments=\count366
+\nofMParguments=\count367
 \everyMPshowfont=\toks57
-\MPscratchCnt=\count367
+\MPscratchCnt=\count368
 \MPscratchDim=\dimen328
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
 \everyMPtoPDFconversion=\toks58
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -806,12 +807,63 @@ LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 118.
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 180.
-<pictures/heatmap_convergence.jpg, id=104, 469.755pt x 266.9975pt>
+<pictures/heatmap_convergence.jpg, id=105, 469.755pt x 266.9975pt>
 File: pictures/heatmap_convergence.jpg Graphic file (type jpg)
 <use pictures/heatmap_convergence.jpg>
 Package pdftex.def Info: pictures/heatmap_convergence.jpg  used on input line 185.
 (pdftex.def)             Requested size: 164.41672pt x 93.45052pt.
 
+
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 224.
+
+Overfull \hbox (13.5676pt too wide) in paragraph at lines 224--224
+\OT1/ppl/m/n/9.53561 some- 
+ []
+
+
+Overfull \hbox (10.43977pt too wide) in paragraph at lines 224--224
+\OT1/ppl/m/n/9.53561 thing 
+ []
+
+
+Overfull \hbox (4.6899pt too wide) in paragraph at lines 224--224
+\OT1/ppl/m/n/9.53561 that 
+ []
+
+
+Overfull \hbox (3.63144pt too wide) in paragraph at lines 224--224
+\OT1/ppl/m/n/9.53561 isnt 
+ []
+
+
+Overfull \hbox (9.93433pt too wide) in paragraph at lines 224--224
+\OT1/ppl/m/n/9.53561 bullo[]  
+ []
+
+
+Overfull \hbox (13.5676pt too wide) in paragraph at lines 224--224
+\OT1/ppl/m/n/9.53561 some- 
+ []
+
+
+Overfull \hbox (10.43977pt too wide) in paragraph at lines 224--224
+\OT1/ppl/m/n/9.53561 thing 
+ []
+
+
+Overfull \hbox (4.6899pt too wide) in paragraph at lines 224--224
+\OT1/ppl/m/n/9.53561 that 
+ []
+
+
+Overfull \hbox (3.63144pt too wide) in paragraph at lines 224--224
+\OT1/ppl/m/n/9.53561 isnt 
+ []
+
+
+Overfull \hbox (9.93433pt too wide) in paragraph at lines 224--224
+\OT1/ppl/m/n/9.53561 bullo[]  
+ []
 
 
 
@@ -821,8 +873,6 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has
                                                   \__shipout_drop_firstpage_...
 l.230 \[
         \lim_{k\rightarrow\infty}\mat{A}^k = \mat T(\lim_{k\rightarrow\infty... <./pictures/heatmap_convergence.jpg>]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 266.
-
 Overfull \hbox (2.83992pt too wide) in paragraph at lines 266--266
 [][][]\OT1/ppl/m/n/9.53561 cite[]  
  []
@@ -833,6 +883,82 @@ Overfull \hbox (2.83992pt too wide) in paragraph at lines 266--266
  []
 
 
+Overfull \hbox (17.02904pt too wide) in paragraph at lines 268--268
+[][][]\OT1/ppl/m/n/9.53561 andere 
+ []
+
+
+Overfull \hbox (13.92972pt too wide) in paragraph at lines 268--268
+\OT1/ppl/m/n/9.53561 quelle 
+ []
+
+
+Overfull \hbox (9.93433pt too wide) in paragraph at lines 268--268
+\OT1/ppl/m/n/9.53561 bullo[]  
+ []
+
+
+Overfull \hbox (17.02904pt too wide) in paragraph at lines 268--268
+[][][]\OT1/ppl/m/n/9.53561 andere 
+ []
+
+
+Overfull \hbox (13.92972pt too wide) in paragraph at lines 268--268
+\OT1/ppl/m/n/9.53561 quelle 
+ []
+
+
+Overfull \hbox (9.93433pt too wide) in paragraph at lines 268--268
+\OT1/ppl/m/n/9.53561 bullo[]  
+ []
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+
+
+Overfull \hbox (6.32057pt too wide) in paragraph at lines 283--283
+\OT1/ppl/m/n/9.53561 con- 
+ []
+
+
+Overfull \hbox (9.90572pt too wide) in paragraph at lines 283--283
+\OT1/ppl/m/n/9.53561 tinue 
+ []
+
+
+Overfull \hbox (8.55197pt too wide) in paragraph at lines 283--283
+\OT1/ppl/m/n/9.53561 from 
+ []
+
+
+Overfull \hbox (6.43498pt too wide) in paragraph at lines 283--283
+\OT1/ppl/m/n/9.53561 here[]  
+ []
+
+
+Overfull \hbox (6.32057pt too wide) in paragraph at lines 283--283
+\OT1/ppl/m/n/9.53561 con- 
+ []
+
+
+Overfull \hbox (9.90572pt too wide) in paragraph at lines 283--283
+\OT1/ppl/m/n/9.53561 tinue 
+ []
+
+
+Overfull \hbox (8.55197pt too wide) in paragraph at lines 283--283
+\OT1/ppl/m/n/9.53561 from 
+ []
+
+
+Overfull \hbox (6.43498pt too wide) in paragraph at lines 283--283
+\OT1/ppl/m/n/9.53561 here[]  
+ []
+
+
+Underfull \vbox (badness 2894) has occurred while \output is active []
 
 
 
@@ -843,66 +969,68 @@ Underfull \hbox (badness 1571) in paragraph at lines 400--401
 \OT1/ppl/m/n/9.53561 Finally, af-ter an-a-lyz-ing when and what con-sen-sus is
  []
 
-<pictures/convergence_low.png, id=172, 416.33542pt x 312.2064pt>
+
+Underfull \vbox (badness 7796) has occurred while \output is active []
+
+
+
+[4]
+<pictures/convergence_low.png, id=189, 416.33542pt x 312.2064pt>
 File: pictures/convergence_low.png Graphic file (type png)
 <use pictures/convergence_low.png>
 Package pdftex.def Info: pictures/convergence_low.png  used on input line 475.
 (pdftex.def)             Requested size: 208.16719pt x 156.10281pt.
-
-Underfull \vbox (badness 4242) has occurred while \output is active []
-
-
-
-[4
-pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.479 
-      ]
 <pictures/convergence_high.png, id=194, 617.96872pt x 378.99593pt>
 File: pictures/convergence_high.png Graphic file (type png)
 <use pictures/convergence_high.png>
 Package pdftex.def Info: pictures/convergence_high.png  used on input line 496.
 (pdftex.def)             Requested size: 253.3688pt x 155.38933pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 
 
 [5
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.516 \[
+        \Phi(S) = \frac{\sum_{i\in S,j\notin S}a_{ij}}{min(\sum_{i\in S}\del...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.520 
-      
+l.516 \[
+        \Phi(S) = \frac{\sum_{i\in S,j\notin S}a_{ij}}{min(\sum_{i\in S}\del...
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.520 
-      
+l.516 \[
+        \Phi(S) = \frac{\sum_{i\in S,j\notin S}a_{ij}}{min(\sum_{i\in S}\del...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.520 
-       <./pictures/convergence_low.png> <./pictures/convergence_high.png>]
+l.516 \[
+        \Phi(S) = \frac{\sum_{i\in S,j\notin S}a_{ij}}{min(\sum_{i\in S}\del... <./pictures/convergence_low.png> <./pictures/convergence_high.png>]
 
 
 
 [6]
-<pictures/bounded_confs.png, id=244, 400.3758pt x 312.2064pt>
+
+<pictures/bounded_confs.png, id=248, 400.3758pt x 312.2064pt>
 File: pictures/bounded_confs.png Graphic file (type png)
 <use pictures/bounded_confs.png>
 Package pdftex.def Info: pictures/bounded_confs.png  used on input line 647.
 (pdftex.def)             Requested size: 200.1874pt x 156.10281pt.
 
 
-(./paper.bbl
-
 [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.57 
-      <./pictures/bounded_confs.png>])
+l.667 
+       <./pictures/bounded_confs.png>] (./paper.bbl)
 
 
 
@@ -914,21 +1042,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: BA9151B9056B772ECF768B72D3F79B32;2507.
+(rerunfilecheck)             Checksum: E699942A595FC3EFA5C978EF07FB3CFE;2507.
  ) 
 Here is how much of TeX's memory you used:
- 37130 strings out of 473190
- 864469 string characters out of 5715799
- 1376857 words of memory out of 5000000
- 59724 multiletter control sequences out of 15000+600000
+ 37163 strings out of 473190
+ 865082 string characters out of 5715799
+ 1378857 words of memory out of 5000000
+ 59754 multiletter control sequences out of 15000+600000
  612468 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,19n,101p,1970b,910s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,101p,1970b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (8 pages, 3142203 bytes).
+Output written on paper.pdf (8 pages, 3143250 bytes).
 PDF statistics:
- 410 PDF objects out of 1000 (max. 8388607)
- 327 compressed objects within 4 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 332 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

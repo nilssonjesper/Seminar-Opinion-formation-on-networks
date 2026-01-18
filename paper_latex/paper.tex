@@ -77,7 +77,7 @@
 % eigene libs
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem]
-\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{lemma}{Lemma}[section]
 \newtheorem{definition}{Definition}[section]
 \usepackage{enumitem}
 
@@ -100,7 +100,7 @@
 
 \begin{abstract}
     % Understanding how opinions emerge and evolve within a population is central to explaining collective behavior and social dynamics. 
-    In this paper, we take a closer look at the DeGroot model (1974) and analyze its convergence and network properties. We show that if the weight matrix $\mat A$ is primitive, then the model converges to a consensus. We also prove that this condition can be verified by checking whether the corresponding graph is strongly connected and aperiodic. Moreover, we show that the connectedness of the graph provides an upper and lower bound for the second largest eigenvalue of $\mat A$, which in turn gives us an upper bound for the convergence speed of the model. Finally, we take a look at the Friedkin-Johnsen model (1990, 1999) and a bounded-confidence model. For the former, we show that the model converges if the product $\mat D\mat A$ of the \textit{susceptibility} matrix $\mat D$ and $\mat A$ is irreducible. For the latter, we provide a procedure to ensure the convergence of the model.
+    In this paper, we take a closer look at the DeGroot model (1974) and analyze its convergence and network properties. We show that if the weight matrix $\mat A$ is primitive, then the model converges to a consensus. We also prove that this condition can be verified by checking whether the corresponding graph is strongly connected and aperiodic. Moreover, we show that the connectedness of the graph provides an upper and lower bound for the second largest eigenvalue of $\mat A$, which in turn gives us an upper bound for the convergence speed of the model. Finally, we take a look at the Friedkin-Johnsen model (1990, 1999) and the Hegselmann-Krause model (2002). For the former, we show that the model converges if the product $\mat D\mat A$ of the \textit{susceptibility} matrix $\mat D$ and $\mat A$ is irreducible. For the latter, we provide a procedure to ensure the convergence of the model. To explain the concepts, we provide some independent proofs and observations.
 \end{abstract}
 
 
@@ -115,7 +115,7 @@ As the DeGroot model is a rather simple abstraction of opinion formation in real
 % Subject --> Parameter
 % subjective distribution <-- opinion
 \section{Preliminaries and Notation}\label{sec:prelim_notation}
-In this paper, we use $\ones$ to denote the vector with all-ones and $\eye$ to denote the identity matrix. Similarly, the vector with all-zeros is referred to as $\zeros$. We use the following style for vectors $\vec p$, matrices $\mat M$, and graphs $\gG$. Moreover, $V(\gG)$ denotes the set of vertices and $E(\gG)$ the set of edges in $\gG$. For a matrix $\mat M$, the notation $(\mat M)_{ij}$ refers to the entry in the i$th$ row and j$th$ column of $\mat M$. Furthermore, we use the notation $\underline{n} = \{1,\dots,n\}$. 
+In this paper, we use $\ones$ to denote the vector with all-ones and $\eye$ to denote the identity matrix. Similarly, the vector with all-zeros is referred to as $\zeros$. For a given vector $(.)^\T$ denotes the transpose of the vector. We use the following style for vectors $\vec p$, matrices $\mat M$, and graphs $\gG$. Moreover, $V(\gG)$ denotes the set of vertices and $E(\gG)$ the set of edges in $\gG$. For a matrix $\mat M$, the notation $(\mat M)_{ij}$ refers to the entry in the i$th$ row and j$th$ column of $\mat M$. Furthermore, we use the notation $\underline{n} = \{1,\dots,n\}$. 
 
 A row-stochastic matrix $\mat A \in \{0,1\}^{n\times n}$ is defined, such that for all its entries $a_{ij} \geq 0$ and its row vectors sum up to 1, i.e., $\sum_{j=1}^na_{ij} = 1$ for all $i \in \underline{n}$. A row-substochastic matrix $\mat A \in \{0,1\}^{n\times n}$ is a non-negative matrix for which all row vectors sum up to at most 1 and at least one row vector that sums up to less than 1, i.e., $\sum_{j=1}^na_{ij} \leq 1$ for all $j\in \underline{n}$ and $\sum_{j=1}^na_{ij} < 1$ for at least one $j\in \underline{n}$. Furthermore, a digraph describes a directed graph, meaning every edge has a direction. A graph is strongly connected if and only if every node $v \in V(\gG)$ is reachable from every other node $u \in V(\gG)$ (with $v \neq u$), i.e., there exists a directed path from every node $u$ to $v$. A sink $\gS$ is a strongly connected subgraph, i.e., $V(\gS) \subset V(\gG)$ and $E(\gS) \subset E(\gG)$, that has no node $i\in \gS$, such that there exists a node $j\notin \gS$ with $(i,j)\in E(\gG)$.
 Lastly, a graph is aperiodic if and only if there exists no $k \in \NN_{>1}$, that divides the length of every simple cycle of the graph. A simple cycle refers to every possible path from any node $v$ back to itself.
@@ -125,7 +125,7 @@ Lastly, a graph is aperiodic if and only if there exists no $k \in \NN_{>1}$, th
 %     A strongly connected graph is called \textit{periodic}, if there exists a $k \in \NN_{>1}$, that divides the length of every simple cycle of the graph. A simple cycle refers to every possible path from any node $v$ back to itself.
 % \end{definition}
 \section{DeGroot model}\label{sec:degroot}
-The DeGroot model considers a group of $n$ individuals who discuss their own opinions on a given parameter $\theta$, that describes the subject, with one another. Each of these individuals has their own opinion value for this unknown parameter $\theta$ which we will refer to as $v_i$ for $i \in \underline{n}$. The model makes use of the idea that interaction with other people in the group, can cause an individual $i$ to change their opinion value $v_i$ based on new information or expertise provided by the other individuals.
+The DeGroot model considers a group of $n$ individuals who discuss their own opinions on a given parameter $\theta$, that describes the subject, with one another. We will introduce this model, as done in \cite{Degroot01031974}. Each of the individuals has their own opinion value for this unknown parameter $\theta$ which we will refer to as $v_i$ for $i \in \underline{n}$. The model makes use of the idea that interaction with other people in the group, can cause an individual $i$ to change their opinion value $v_i$ based on new information or expertise provided by the other individuals.
 
 
 The model assumes that this revision of the individual's opinion is a linear combination of the opinion values $v_1, \dots, v_n$. To model this revision, we therefore define $a_{ij}$ which denotes the weight that individual $i$ assigns to the opinion of individual $j$. If, for example, individual $j$ is a leading expert on the value of $\theta$, then individual $i$ might want to assign a greater weight to individual $j$'s opinion. Likewise, individual $i$ can also assign a large weight to their own opinion and a small total weight to the opinions of other individuals. Another possible approach would be to weigh those opinions highly which align the most with one's own opinion. The weights are assigned by the individuals without any knowledge of the other individuals' assigned weights. 
@@ -147,7 +147,7 @@ If we let the vector $\vec{p_0} = (v_1,\dots,v_n)^\T$ denote the initial opinion
 \begin{equation}\label{eq:iteration}
     \vec{p_k} = \mat A\vec{p_{k-1}} = \mat A^k\vec{p_0} \ ,
 \end{equation}
-for $k = 1, 2, \dots$\textbf{.} This process of revising the opinions is then repeated until the vector $\vec p_k$ converges asymptotically, with 
+for $k = 1, 2, \dots$\textbf{.} This process of revising the opinions is then repeated until the vector $\vec{p_k}$ converges asymptotically, with 
 \begin{equation}\label{eq:convergence}
     \vec{p_k} = \vec{p_{k+1}} = \mat A\vec{p_k}\ .
 \end{equation}
@@ -155,7 +155,7 @@ As $\mat A\vec{p_k} = \mat A^k\vec{p_0}$, see \cref{eq:iteration}, it follows th
 \begin{equation}\label{eq:convergence_matrix}
     \mat A^k\mat A\vec{p_0} = \mat A^k\vec{p_0}\ ,
 \end{equation}
-i.e., $\lim_{k\rightarrow\infty}\mat A^k$ converges. We will refer to this converged matrix as $\mat{A^{fin}}$ and to the converged final opinion values as $\vec{p^{fin}} = (v_1^{fin},\dots,v_n^{fin})$. \cite{Degroot01031974}
+i.e., $\lim_{k\rightarrow\infty}\mat A^k$ converges. We will refer to this converged matrix as $\mat{A^{fin}}$ and to the converged final opinion values as $\vec{p^{fin}} = (v_1^{fin},\dots,v_n^{fin})$.
 % Describe $\Omega$ ? (and F(A) in regards to Omega?)
 
 \subsection{Convergence properties}
@@ -221,14 +221,14 @@ As the k$th$ power of a Jordan block $\mat{J_i} \in \RR^{l\times l}$ with the ei
 0 & \ddots & 0 & \lambda_i^k & \binom{k}{1}\lambda_i^{k-1}\\
 0 & 0 & \dots & 0 & \lambda_i^k
 \end{bmatrix}\ , \] % ref bullo
-see \cite{Bullo_lecture},
-we can conclude the following conditions for the convergence of matrix $\mat A$. First, the magnitudes of all of its eigenvalues $\lambda_i$ need to be in the intervall $ -1 < |\lambda_i| \leq 1$. If $|\lambda_i| > 1$, then all non-zero entries of $\mat{J_i}$ diverge for $\lim_{k\rightarrow\infty}(\mat{J_i}^k)_{ij} = \infty$. When some Jordan block $\mat{J_i}$ diverges for $\lim_{k\rightarrow\infty}$, then trivially the Jordan matrix $\mat J$, and thus also $\mat A$, diverge as well.
+\todo{ref something that isnt bullo}
+we can conclude the following conditions, as done in \cite{Bullo_lecture}, for the convergence of matrix $\mat A$. First, the magnitudes of all of its eigenvalues $\lambda_i$ need to be in the intervall $ -1 < |\lambda_i| \leq 1$. If $|\lambda_i| > 1$, then all non-zero entries of $\mat{J_i}$ diverge for $\lim_{k\rightarrow\infty}(\mat{J_i}^k)_{ij} = \infty$. When some Jordan block $\mat{J_i}$ diverges for $\lim_{k\rightarrow\infty}$, then trivially the Jordan matrix $\mat J$, and thus also $\mat A$, diverge as well.
 Second, if $\lambda_j = -1$ is an eigenvalue of $\mat A$, then the entries $\lambda_j$ on the diagonal of the corresponding Jordan block $\mat{J_j}$ diverge for $\lim_{k\rightarrow\infty}(\mat{J_j}^k)_{ij}$, as the powers $\lambda_j^k$ oscillate between $-1$ and $1$. Thus, $\mat A$ oscillates as well, as can be observed in \cref{fig:non_convergence_heatmap}.
 Third, if $\lambda_l = 1$ is an eigenvalue of $\mat A$, it needs to be semisimple, meaning that its geometric and algebraic multiplicities are equal, i.e., the corresponding Jordan blocks have size $1$.
 If this condition is not satisfied, the entries $(\mat{J_l})_{ij}$ with $j>i$ diverge for $\lim_{k\rightarrow\infty}(\mat{J_l}^k)_{ij} = \infty$. In the following, we will refer to the eigenvalue 1 of $\mat A$, also called the dominant eigenvalue, as $\lambda_1$.
 Moreover, because $\mat T$ is invertible, we know that $\mat T,\mat T^{-1}\neq \zerosmatr$. Therefore, if $\mat A$ has the semisimple eigenvalue $\lambda_1$, then 
 \[\lim_{k\rightarrow\infty}\mat{A}^k = \mat T(\lim_{k\rightarrow\infty}\mat{J}^k)\mat T^{-1} \neq \zerosmatr \ ,\] 
-as the Jordan blocks $\lim_{k\rightarrow\infty}{\mat{J_l}}$ converge against 1, i.e., $\lim_{k\rightarrow\infty}\mat J^k \neq \zerosmatr$. We refer to such a matrix $\mat A$ as semi-convergent. 
+as the Jordan blocks $\lim_{k\rightarrow\infty}{\mat{J_l}}$ converge against 1, i.e., $\lim_{k\rightarrow\infty}\mat J^k \neq \zerosmatr$. We refer to such a matrix $\mat A$ as semi-convergent.
 % On the contrary, if $\mat A$ has no eigenvalue $\lambda_1$, then $\lim_{k\rightarrow\infty}\mat A^k = \lim_{k\rightarrow\infty}\mat J^k = \zerosmatr$ and is referred to as convergent.
 
 Because $\mat A$ is row-stochastic, by definition
@@ -238,16 +238,16 @@ Because $\mat A$ is row-stochastic, by definition
 as all rows have unit sum. Thus, $\lambda_1$ is an eigenvalue of all matrices $\mat A$ of our model which are consequentially semi-convergent, if a limit exists.
 
 % if 1 not eigenvalue then convergent
-We can summarize these findings in the following \cref{th:semi_conv}.
+We can summarize these findings in the following \cref{th:semi_conv}, found in \cite{Bullo_lecture}.
 \begin{theorem}\label{th:semi_conv}
-    A squared matrix $\mat A$ is semi-convergent (i.e., $\lim_{k\rightarrow\infty}\mat A^k \neq \zerosmatr$ exists) if and only if:
+    A row-stochastic matrix $\mat A$ is semi-convergent (i.e., $\lim_{k\rightarrow\infty}\mat A^k \neq \zerosmatr$ exists) if and only if:
     \begin{enumerate}[label=(\roman*)]
         \item 1 is an eigenvalue
         \item 1 a semisimple eigenvalue, and
         \item all other eigenvalues have magnitude less than 1. 
     \end{enumerate}
 \end{theorem}
-As we showed, condition (i) of \cref{th:semi_conv} holds for all row-stochastic matrices. We will discuss under which circumstances the other conditions hold in the following section.
+As shown, condition (i) of \cref{th:semi_conv} holds for all row-stochastic matrices. We will discuss under which circumstances the other conditions hold in the following section.
 
 % \begin{lemma}\label{spectral_radius}
 %     The set of all eigenvalues of a row-stochastic matrix A is a subset of the unit disk.
@@ -265,7 +265,7 @@ To now determine when a consensus is reached,  we will utilize the Perron-Froben
 \end{definition}
 Moreover, being primitive is a sufficient condition for an irreducible matrix. \todo{cite}
 
-If we apply the Perron-Frobenius Theorem to row-stochastic matrices $\mat A$, we get the following.
+When applying the Perron-Frobenius Theorem to row-stochastic matrices $\mat A$, we get the following, as found in \cite{Bullo_lecture}.\todo{andere quelle als bullo}
 \begin{theorem}[Perron-Frobenius Theorem]\label{th:perron-frobenius}
     Let the row-stochastic $\mat A \in \{0,1\}^{n\times n}$ with $n\geq 2$, then if $\mat A$ is irreducible,
     \begin{enumerate}[label=(\roman*)]
@@ -276,11 +276,11 @@ If we apply the Perron-Frobenius Theorem to row-stochastic matrices $\mat A$, we
     \end{enumerate}
 \end{theorem}
 Therefore, according to the Perron-Frobenius \cref{th:perron-frobenius}, if $\mat A$ is irreducible and row-stochastic, then $\lambda_1$ is simple which is a sufficient condition for semisimple, thus fulfilling condition (ii) of \cref{th:semi_conv}. Moreover, if additionally $\mat A$ is primitive, then all eigenvalues $\lambda_i \neq 1$ have magnitude less than 1, i.e., $\lambda_1 > |\lambda_i|$, thus fulfilling condition (iii) of \cref{th:semi_conv}.
-We can therefore conclude that if a row-stochastic matrix is primitive, then $\mat A$ is semi-convergent, i.e., the model converges.
+It can therefore be concluded that if a row-stochastic matrix is primitive, then $\mat A$ is semi-convergent, i.e., the model converges.
 
 However, it can often be computationally expensive to check whether a given matrix is irreducible or primitive. Therefore, we will now relate these conditions to graph properties, which are typically easier to verify.
 
-We can translate any instance of the DeGroot model into a digraph $\gG=(V,E)$ with the nodes $V(\gG) = \{1, \dots,n\}$ representing the individuals and the edges $E(\gG) = \{(i,j)|a_{ij} > 0\}$ with the corresponding weighted adjacency matrix $\mat A$, defined in \cref{sec:degroot}. We can now observe that a path of length $k$ exists from node $i$ to node $j$ in $\gG$ if and only if the entry $(i,j)$ of the k$th$ power of the adjacency matrix $\mat A^k$ is positive.
+We can translate any instance of the DeGroot model into a digraph $\gG=(V,E)$ with the nodes $V(\gG) = \{1, \dots,n\}$ representing the individuals and the edges $E(\gG) = \{(i,j)|a_{ij} > 0\}$ with the corresponding weighted adjacency matrix $\mat A$, defined in \cref{sec:degroot}. We can now observe that a path of length $k$ exists from node $i$ to node $j$ in $\gG$ if and only if the entry $(i,j)$ of the k$th$ power of the adjacency matrix $\mat A^k$ is positive. For this we offer an independent proof. \todo{?? + continue from here}
 
 \begin{proof}
     Let $\mat A\in\{0,1\}^{n\times n}$. There trivially exists a path of length $1$ from node $i$ to node $j$, precisely when $(\mat A)_{ij}=a_{ij}>0$, i.e., there exists an edge from $i$ to $j$. Assume that the observation is correct for any $k\in \underline{n}$. If there exists a path of length $k+1$ from $i$ to $j$, then there exists a path of length $k$ from $i$ to some node $l\in\underline{n}$ with $(l,j)\in E(\gG)$, i.e., $(\mat A)_{lj}>0$. As $(\mat A^{k+1})_{ij} = (\mat A^k\cdot \mat A)_{ij} = \sum_{m=1}^{n}(\mat A^k)_{im}\cdot (\mat A)_{mj} \geq (\mat A^k)_{il}\cdot (\mat A)_{lj}>0$, because by the induction hypothesis $(\mat A^k)_{il}>0$. In the other direction, if $(\mat A^{k+1})_{ij}>0$ then their must be at least one $l\in \underline{n}$, such that $(\mat A^k)_{il}\cdot (\mat A)_{lj} >0$. Thus, using the induction hypothesis, there must exist a path of length $k$ from $i$ to $l$ and $(l,j)\in E(\gG)$. Therefore, there exists a path of length $k+1$ from $i$ to $j$ over $l$.
@@ -335,7 +335,7 @@ For $m_g \in \underline{n}$, let $\vec{c_1},\dots,\vec{c_{m_g}}$ denote the colu
 
 To reach asymptotic consensus, all rows of $\mat{A^{fin}}$ need to be equal. Thus all columns $\vec{c_1}, \dots, \vec{c_{m_g}}$ of $\mat T$ need to be equal, see \cref{eq:col_row_A^k}.
 
-As $\mat A = \mat T\mat J\mat T^{-1} \iff \mat A\mat T = \mat T\mat J \iff \mat T^{-1}\mat A = \mat J\mat T^{-1}$, if $\mat A$ is semisimple, then $\mat A\vec c_i = \lambda_i\vec c_i$ and $\vec r_i\mat A = \lambda_i\vec r_i$, i.e., $\vec c_i$ is the right eigenvector and $\vec r_i^\T$ the left eigenvector of $\lambda_i$. As the number of dimensions of an eigenspace is equal to the geometric multiplicity of the corresponding eigenvalue, the eigenspace of $\lambda_1$ has $m_g$ dimensions. Thus, all of the $m_g$ eigenvectors $c_i$ of $\lambda_1$ need to be linearly independent. Therefore, they cannot be equal if the geometric multiplicity $m_g>1$, meaning the rows of $\mat{A^{fin}}$ are equal if and only if $m_g = 1$, i.e., $\lambda_1$ is simple.
+As $\mat A = \mat T\mat J\mat T^{-1} \iff \mat A\mat T = \mat T\mat J \iff \mat T^{-1}\mat A = \mat J\mat T^{-1}$, if $\mat A$ is semisimple, then $\mat A\vec{c_i} = \lambda_i\vec{c_i}$ and $\vec{r_i}\mat A = \lambda_i\vec{r_i}$, i.e., $\vec{c_i}$ is the right eigenvector and $\vec{r_i}^\T$ the left eigenvector of $\lambda_i$. As the number of dimensions of an eigenspace is equal to the geometric multiplicity of the corresponding eigenvalue, the eigenspace of $\lambda_1$ has $m_g$ dimensions. Thus, all of the $m_g$ eigenvectors $c_i$ of $\lambda_1$ need to be linearly independent. Therefore, they cannot be equal if the geometric multiplicity $m_g>1$, meaning the rows of $\mat{A^{fin}}$ are equal if and only if $m_g = 1$, i.e., $\lambda_1$ is simple.
 
 Thus, the model reaches asymptotic consensus if and only if the row-stochastic matrix $\mat A$ is semi-convergent and $\lambda_1$ is simple. Therefore, according to the Perron-Frobenius \cref{th:perron-frobenius}, the model converges when $\mat A$ is primitive. However, $\mat A$ being primitive is not a necessary condition for reaching asymptotic consensus. Intuitively, as all final opinion values are dependent on the individual $i$ corresponding to the simple eigenvalue $\lambda_1$, all other individuals need to be connected to this individual $i$. Otherwise, their opinion value could not be influence by individual $i$. Thus, the node corresponding to individual $i$ needs to be globally reachable, i.e., reachable from all other nodes. In other words, there needs to exist a globally reachable node, which precisely corresponds to $\lambda_1$, for the model to asymptotically reach a consensus. This condition is sufficient to determine whether asymptotic consensus is reached.
 
@@ -377,7 +377,7 @@ Because $\ones$ is an eigenvector of every row-stochastic matrix, as shown in \c
 \end{equation}
 To calculate the consensus, we now need to combine this \cref{eq:limit_A} with \cref{eq:iteration}, such that
 \begin{equation}\label{eq:limit_P}
-    \vec{p^{fin}} = \lim_{k\rightarrow\infty}\vec p^k = (\lim_{k\rightarrow\infty}\mat A^k)\vec p_0 = 
+    \vec{p^{fin}} = \lim_{k\rightarrow\infty}\vec p^k = (\lim_{k\rightarrow\infty}\mat A^k)\vec{p_0} = 
     \begin{bmatrix}
         \vec r\\
         \vdots\\
@@ -507,7 +507,7 @@ As shown in \cref{sec:reaching_consensus}, the model reaches a consensus if and 
 However, according to \cite{Bullo_lecture}, the eigenvalue $\lambda_1$ is semisimple with the geometric multiplicity $m_g$ and $|\lambda_i| < 1$ for all $i \in \underline{n}$ if and only if $\gG$ has sinks $\gS_i$, see \cref{sec:prelim_notation}, with $i\in\underline{m_g}$, that are all aperiodic. Such graphs $\gG$, that fulfill these conditions, therefore have semi-convergent adjacency matrices $\mat A$, see \cref{th:semi_conv}.
 These graphs $\gG$ reach disagreement, instead of consensus, meaning that at least one pair of final opinion values $v_{i}^{fin} \neq v_{j}^{fin}$, with $i \neq j$.
 When calculating the final opinion values, we need to differentiate between strongly connected subgraphs and sinks. As the sinks $\gS_i$ have no outgoing edges, the final opinion values of individuals in the sinks are not dependent on other individuals outside of their sink. Therefore, the final opinion value for nodes $j\in \gS_i$, with $i\in \underline{m_g}$, can be calculated as
-\[v_j^{fin} = \vec r_i \vec {p_0},\]
+\[v_j^{fin} = \vec{r_i} \vec{p_0},\]
 where $\vec{r_i}$ is the corresponding left eigenvector, like in \cref{eq:limit_P}. However, the final opinion values of strongly connected subgraphs that are not sinks, i.e., that have outgoing edges to other strongly connected subgraphs, are dependent on nodes outside of their subgraph. Therefore, the final opinion value for nodes $j\notin \gS_i$, with $i\in \underline{m_g}$, are equal to
 \[v_j^{fin} = \sum_{p=1}^{m_g}z_{jp}(\vec{r_i} \vec{p_0})\ ,\]
 where $\vec{r_i}$ is the corresponding left eigenvector and $z_{jp}$, with $p\in \underline{m_g}$, are convex combination coefficients that are $z_{jp} > 0$ if and only if there exists a directed path from node $j$ to sink $p$. \cite{Bullo_lecture}
@@ -627,7 +627,7 @@ then we can calculate the revision through $\vec{p_k} = \mat A^k \vec{p_{k-1}}$,
 
 Notice that this model describes a DeGroot model, where all outgoing edges from a certain node have the same weight and edges between two nodes can be added and removed depending on the similarity of their opinion values.
 
-Furthermore, to observe under which conditions the Hegselmann-Krause model reaches asymptotic consensus, we define an $\epsilon$-chain, as can be found in \cite{Krause2000DiscreteNonlinearand} and \cite{Dittmer}.
+Furthermore, to observe under which conditions the Hegselmann-Krause model reaches asymptotic consensus, we define an $\epsilon$-chain, as can be found in \cite{Krause} and \cite{Dittmer}.
 
 \begin{definition}[$\epsilon$-chain]
     A vector $\vec{p_k} \in \RR^n_+$ is called an $\epsilon$-chain with $\epsilon \geq 0$ if an ordering $v_{1k} \leq \dots \leq v_{nk}$ exists, such that $v_{(i+1)k} - v_{ik} \leq \epsilon$ for all $i \in \underline{n}$.
