@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  18 JAN 2026 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  18 JAN 2026 19:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -975,16 +975,21 @@ Underfull \vbox (badness 7796) has occurred while \output is active []
 
 
 [4]
-<pictures/convergence_low.png, id=189, 416.33542pt x 312.2064pt>
+<pictures/convergence_low.png, id=189, 430.0065pt x 320.81857pt>
 File: pictures/convergence_low.png Graphic file (type png)
 <use pictures/convergence_low.png>
 Package pdftex.def Info: pictures/convergence_low.png  used on input line 475.
-(pdftex.def)             Requested size: 208.16719pt x 156.10281pt.
-<pictures/convergence_high.png, id=194, 617.96872pt x 378.99593pt>
+(pdftex.def)             Requested size: 215.00272pt x 160.40889pt.
+<pictures/convergence_high.png, id=194, 641.2758pt x 393.3897pt>
 File: pictures/convergence_high.png Graphic file (type png)
 <use pictures/convergence_high.png>
 Package pdftex.def Info: pictures/convergence_high.png  used on input line 496.
-(pdftex.def)             Requested size: 253.3688pt x 155.38933pt.
+(pdftex.def)             Requested size: 262.92477pt x 161.29082pt.
+
+Overfull \hbox (9.97978pt too wide) in paragraph at lines 496--497
+ [][] 
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -996,33 +1001,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 \[
-        \Phi(S) = \frac{\sum_{i\in S,j\notin S}a_{ij}}{min(\sum_{i\in S}\del...
+l.515 S
+       econd, we will discuss how the connectedness of the graph can influen...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 \[
-        \Phi(S) = \frac{\sum_{i\in S,j\notin S}a_{ij}}{min(\sum_{i\in S}\del...
+l.515 S
+       econd, we will discuss how the connectedness of the graph can influen...
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 \[
-        \Phi(S) = \frac{\sum_{i\in S,j\notin S}a_{ij}}{min(\sum_{i\in S}\del...
+l.515 S
+       econd, we will discuss how the connectedness of the graph can influen...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 \[
-        \Phi(S) = \frac{\sum_{i\in S,j\notin S}a_{ij}}{min(\sum_{i\in S}\del... <./pictures/convergence_low.png> <./pictures/convergence_high.png>]
+l.515 S
+       econd, we will discuss how the connectedness of the graph can influen... <./pictures/convergence_low.png> <./pictures/convergence_high.png>]
 
 
 
 [6]
 
-<pictures/bounded_confs.png, id=248, 400.3758pt x 312.2064pt>
+<pictures/bounded_confs.png, id=248, 407.66302pt x 320.81857pt>
 File: pictures/bounded_confs.png Graphic file (type png)
 <use pictures/bounded_confs.png>
 Package pdftex.def Info: pictures/bounded_confs.png  used on input line 647.
-(pdftex.def)             Requested size: 200.1874pt x 156.10281pt.
+(pdftex.def)             Requested size: 203.83101pt x 160.40889pt.
 
 
 [7
@@ -1053,7 +1058,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,19n,101p,1970b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (8 pages, 3143250 bytes).
+Output written on paper.pdf (8 pages, 3398167 bytes).
 PDF statistics:
  415 PDF objects out of 1000 (max. 8388607)
  332 compressed objects within 4 object streams
