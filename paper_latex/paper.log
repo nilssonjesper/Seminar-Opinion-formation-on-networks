@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  18 JAN 2026 19:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  19 JAN 2026 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -658,104 +658,136 @@ Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 \everycr=\toks48
 \minrowclearance=\skip68
 \rownum=\count350
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplotstable 2021/05/15 v1.18.1 Table typesetting and Pretty-printing (1.18.1)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen312
+\captionmargin=\dimen313
+\caption@leftmargin=\dimen314
+\caption@rightmargin=\dimen315
+\caption@width=\dimen316
+\caption@indent=\dimen317
+\caption@parindent=\dimen318
+\caption@hangindent=\dimen319
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\normalfont \sffamily \footnotesize #1}\\{\normalfont \sffamily \footnotesize #2}\par \addvspace {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \sffamily \footnotesize {#1.}\nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \sffamily \footnotesize {#1.}\nobreakspace }\parbox [t]{\hsize }{\normalfont \sffamily \footnotesize \noindent \unhbox \@tempboxa #2}\else \hbox to\hsize {\normalfont \sffamily \footnotesize \box \@tempboxa \hfil }\fi \fi  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count351
+\c@continuedfloat=\count352
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count353
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count354
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks49
 \t@pgfplots@tokb=\toks50
 \t@pgfplots@tokc=\toks51
-\pgfplots@tmpa=\dimen312
-\c@pgfplots@coordindex=\count351
-\c@pgfplots@scanlineindex=\count352
+\pgfplots@tmpa=\dimen320
+\c@pgfplots@coordindex=\count355
+\c@pgfplots@scanlineindex=\count356
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks52
 \t@pgf@tokb=\toks53
 \t@pgf@tokc=\toks54
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count353
+\c@pgfplotsarray@tmp=\count357
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count354
+\c@pgfplotstable@counta=\count358
 \t@pgfplotstable@a=\toks55
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count355
+\c@pgfplotslibrarysurf@no=\count359
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen313
-\pgfdecoratedremainingdistance=\dimen314
-\pgfdecoratedinputsegmentcompleteddistance=\dimen315
-\pgfdecoratedinputsegmentremainingdistance=\dimen316
-\pgf@decorate@distancetomove=\dimen317
-\pgf@decorate@repeatstate=\count356
-\pgfdecorationsegmentamplitude=\dimen318
-\pgfdecorationsegmentlength=\dimen319
+\pgfdecoratedcompleteddistance=\dimen321
+\pgfdecoratedremainingdistance=\dimen322
+\pgfdecoratedinputsegmentcompleteddistance=\dimen323
+\pgfdecoratedinputsegmentremainingdistance=\dimen324
+\pgf@decorate@distancetomove=\dimen325
+\pgf@decorate@repeatstate=\count360
+\pgfdecorationsegmentamplitude=\dimen326
+\pgfdecorationsegmentlength=\dimen327
 )
 \tikz@lib@dec@box=\box72
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count357
-\pgfplots@xmin@reg=\dimen320
-\pgfplots@xmax@reg=\dimen321
-\pgfplots@ymin@reg=\dimen322
-\pgfplots@ymax@reg=\dimen323
-\pgfplots@zmin@reg=\dimen324
-\pgfplots@zmax@reg=\dimen325
+\pgfplots@numplots=\count361
+\pgfplots@xmin@reg=\dimen328
+\pgfplots@xmax@reg=\dimen329
+\pgfplots@ymin@reg=\dimen330
+\pgfplots@ymax@reg=\dimen331
+\pgfplots@zmin@reg=\dimen332
+\pgfplots@zmax@reg=\dimen333
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.coltype.code.tex)))
-\c@theorem=\count358
-\c@corollary=\count359
-\c@lemma=\count360
-\c@definition=\count361
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplotstable 2021/05/15 v1.18.1 Table typesetting and Pretty-printing (1.18.1)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.coltype.code.tex)))
+\c@theorem=\count362
+\c@corollary=\count363
+\c@lemma=\count364
+\c@definition=\count365
  (/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip69
-\enit@outerparindent=\dimen326
+\enit@outerparindent=\dimen334
 \enit@toks=\toks56
 \enit@inbox=\box73
-\enit@count@id=\count362
-\enitdp@description=\count363
+\enit@count@id=\count366
+\enitdp@description=\count367
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count364
+\l__color_backend_stack_int=\count368
 \l__pdf_internal_box=\box74
 ) (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 
 -- Lines per column: 61 (exact).
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count365
-\scratchdimen=\dimen327
+\scratchcounter=\count369
+\scratchdimen=\dimen335
 \scratchbox=\box75
-\nofMPsegments=\count366
-\nofMParguments=\count367
+\nofMPsegments=\count370
+\nofMParguments=\count371
 \everyMPshowfont=\toks57
-\MPscratchCnt=\count368
-\MPscratchDim=\dimen328
-\MPnumerator=\count369
-\makeMPintoPDFobject=\count370
+\MPscratchCnt=\count372
+\MPscratchDim=\dimen336
+\MPnumerator=\count373
+\makeMPintoPDFobject=\count374
 \everyMPtoPDFconversion=\toks58
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -763,40 +795,42 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 88.
+Package hyperref Info: Link coloring ON on input line 90.
  (./paper.out) (./paper.out)
 \@outlinefile=\write4
 \openout4 = `paper.out'.
 
 
 
-Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 88.
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 90.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 88.
+ on input line 90.
 
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 98.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 100.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 98.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 98.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 100.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 100.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 98.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 100.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+pzd on input line 98.
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 100.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 103.
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 105.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.03> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 103.
-LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 118.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 105.
+LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 120.
 
 
 
@@ -806,109 +840,104 @@ LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 118.
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 180.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 182.
 <pictures/heatmap_convergence.jpg, id=105, 469.755pt x 266.9975pt>
 File: pictures/heatmap_convergence.jpg Graphic file (type jpg)
 <use pictures/heatmap_convergence.jpg>
-Package pdftex.def Info: pictures/heatmap_convergence.jpg  used on input line 185.
+Package pdftex.def Info: pictures/heatmap_convergence.jpg  used on input line 187.
 (pdftex.def)             Requested size: 164.41672pt x 93.45052pt.
 
 
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 224.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 226.
 
-Overfull \hbox (13.5676pt too wide) in paragraph at lines 224--224
+Overfull \hbox (13.5676pt too wide) in paragraph at lines 226--226
 \OT1/ppl/m/n/9.53561 some- 
  []
 
 
-Overfull \hbox (10.43977pt too wide) in paragraph at lines 224--224
+Overfull \hbox (10.43977pt too wide) in paragraph at lines 226--226
 \OT1/ppl/m/n/9.53561 thing 
  []
 
 
-Overfull \hbox (4.6899pt too wide) in paragraph at lines 224--224
+Overfull \hbox (4.6899pt too wide) in paragraph at lines 226--226
 \OT1/ppl/m/n/9.53561 that 
  []
 
 
-Overfull \hbox (3.63144pt too wide) in paragraph at lines 224--224
+Overfull \hbox (3.63144pt too wide) in paragraph at lines 226--226
 \OT1/ppl/m/n/9.53561 isnt 
  []
 
 
-Overfull \hbox (9.93433pt too wide) in paragraph at lines 224--224
+Overfull \hbox (9.93433pt too wide) in paragraph at lines 226--226
 \OT1/ppl/m/n/9.53561 bullo[]  
  []
 
 
-Overfull \hbox (13.5676pt too wide) in paragraph at lines 224--224
+Overfull \hbox (13.5676pt too wide) in paragraph at lines 226--226
 \OT1/ppl/m/n/9.53561 some- 
  []
 
 
-Overfull \hbox (10.43977pt too wide) in paragraph at lines 224--224
+Overfull \hbox (10.43977pt too wide) in paragraph at lines 226--226
 \OT1/ppl/m/n/9.53561 thing 
  []
 
 
-Overfull \hbox (4.6899pt too wide) in paragraph at lines 224--224
+Overfull \hbox (4.6899pt too wide) in paragraph at lines 226--226
 \OT1/ppl/m/n/9.53561 that 
  []
 
 
-Overfull \hbox (3.63144pt too wide) in paragraph at lines 224--224
+Overfull \hbox (3.63144pt too wide) in paragraph at lines 226--226
 \OT1/ppl/m/n/9.53561 isnt 
  []
 
 
-Overfull \hbox (9.93433pt too wide) in paragraph at lines 224--224
+Overfull \hbox (9.93433pt too wide) in paragraph at lines 226--226
 \OT1/ppl/m/n/9.53561 bullo[]  
  []
 
 
 
-[2
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.230 \[
-        \lim_{k\rightarrow\infty}\mat{A}^k = \mat T(\lim_{k\rightarrow\infty... <./pictures/heatmap_convergence.jpg>]
-Overfull \hbox (2.83992pt too wide) in paragraph at lines 266--266
+[2 <./pictures/heatmap_convergence.jpg>]
+Overfull \hbox (2.83992pt too wide) in paragraph at lines 268--268
 [][][]\OT1/ppl/m/n/9.53561 cite[]  
  []
 
 
-Overfull \hbox (2.83992pt too wide) in paragraph at lines 266--266
+Overfull \hbox (2.83992pt too wide) in paragraph at lines 268--268
 [][][]\OT1/ppl/m/n/9.53561 cite[]  
  []
 
 
-Overfull \hbox (17.02904pt too wide) in paragraph at lines 268--268
+Overfull \hbox (17.02904pt too wide) in paragraph at lines 270--270
 [][][]\OT1/ppl/m/n/9.53561 andere 
  []
 
 
-Overfull \hbox (13.92972pt too wide) in paragraph at lines 268--268
+Overfull \hbox (13.92972pt too wide) in paragraph at lines 270--270
 \OT1/ppl/m/n/9.53561 quelle 
  []
 
 
-Overfull \hbox (9.93433pt too wide) in paragraph at lines 268--268
+Overfull \hbox (9.93433pt too wide) in paragraph at lines 270--270
 \OT1/ppl/m/n/9.53561 bullo[]  
  []
 
 
-Overfull \hbox (17.02904pt too wide) in paragraph at lines 268--268
+Overfull \hbox (17.02904pt too wide) in paragraph at lines 270--270
 [][][]\OT1/ppl/m/n/9.53561 andere 
  []
 
 
-Overfull \hbox (13.92972pt too wide) in paragraph at lines 268--268
+Overfull \hbox (13.92972pt too wide) in paragraph at lines 270--270
 \OT1/ppl/m/n/9.53561 quelle 
  []
 
 
-Overfull \hbox (9.93433pt too wide) in paragraph at lines 268--268
+Overfull \hbox (9.93433pt too wide) in paragraph at lines 270--270
 \OT1/ppl/m/n/9.53561 bullo[]  
  []
 
@@ -918,124 +947,99 @@ LaTeX Warning: Marginpar on page 3 moved.
 
 
 
-Overfull \hbox (6.32057pt too wide) in paragraph at lines 283--283
-\OT1/ppl/m/n/9.53561 con- 
+Overfull \hbox (33.21982pt too wide) in paragraph at lines 291--291
+[][][]\OT1/ppl/m/n/9.53561 intuition??[]  
  []
 
 
-Overfull \hbox (9.90572pt too wide) in paragraph at lines 283--283
-\OT1/ppl/m/n/9.53561 tinue 
+Overfull \hbox (33.21982pt too wide) in paragraph at lines 291--291
+[][][]\OT1/ppl/m/n/9.53561 intuition??[]  
  []
 
 
-Overfull \hbox (8.55197pt too wide) in paragraph at lines 283--283
-\OT1/ppl/m/n/9.53561 from 
+Overfull \hbox (0.85669pt too wide) in paragraph at lines 304--304
+[][][]\OT1/ppl/m/n/9.53561 ???[]  
  []
 
 
-Overfull \hbox (6.43498pt too wide) in paragraph at lines 283--283
-\OT1/ppl/m/n/9.53561 here[]  
+Overfull \hbox (0.85669pt too wide) in paragraph at lines 304--304
+[][][]\OT1/ppl/m/n/9.53561 ???[]  
  []
 
 
-Overfull \hbox (6.32057pt too wide) in paragraph at lines 283--283
-\OT1/ppl/m/n/9.53561 con- 
- []
-
-
-Overfull \hbox (9.90572pt too wide) in paragraph at lines 283--283
-\OT1/ppl/m/n/9.53561 tinue 
- []
-
-
-Overfull \hbox (8.55197pt too wide) in paragraph at lines 283--283
-\OT1/ppl/m/n/9.53561 from 
- []
-
-
-Overfull \hbox (6.43498pt too wide) in paragraph at lines 283--283
-\OT1/ppl/m/n/9.53561 here[]  
- []
-
-
-Underfull \vbox (badness 2894) has occurred while \output is active []
+Underfull \vbox (badness 6063) has occurred while \output is active []
 
 
 
 [3]
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 400--401
-\OT1/ppl/m/n/9.53561 Finally, af-ter an-a-lyz-ing when and what con-sen-sus is
+Overfull \hbox (7.07367pt too wide) in paragraph at lines 339--339
+[][][]\OT1/ppl/m/n/9.53561 cite?[]  
  []
 
 
-Underfull \vbox (badness 7796) has occurred while \output is active []
+Overfull \hbox (7.07367pt too wide) in paragraph at lines 339--339
+[][][]\OT1/ppl/m/n/9.53561 cite?[]  
+ []
 
+
+
+
+Overfull \hbox (24.89552pt too wide) in paragraph at lines 402--402
+[][][]\OT1/ppl/m/n/9.53561 continue 
+ []
+
+
+Overfull \hbox (6.43498pt too wide) in paragraph at lines 402--402
+\OT1/ppl/m/n/9.53561 here[]  
+ []
+
+
+Overfull \hbox (24.89552pt too wide) in paragraph at lines 402--402
+[][][]\OT1/ppl/m/n/9.53561 continue 
+ []
+
+
+Overfull \hbox (6.43498pt too wide) in paragraph at lines 402--402
+\OT1/ppl/m/n/9.53561 here[]  
+ []
+
+<pictures/convergence_low.png, id=179, 430.0065pt x 320.81857pt>
+File: pictures/convergence_low.png Graphic file (type png)
+<use pictures/convergence_low.png>
+Package pdftex.def Info: pictures/convergence_low.png  used on input line 496.
+(pdftex.def)             Requested size: 215.00272pt x 160.40889pt.
 
 
 [4]
-<pictures/convergence_low.png, id=189, 430.0065pt x 320.81857pt>
-File: pictures/convergence_low.png Graphic file (type png)
-<use pictures/convergence_low.png>
-Package pdftex.def Info: pictures/convergence_low.png  used on input line 475.
-(pdftex.def)             Requested size: 215.00272pt x 160.40889pt.
-<pictures/convergence_high.png, id=194, 641.2758pt x 393.3897pt>
+<pictures/convergence_high.png, id=202, 641.2758pt x 393.3897pt>
 File: pictures/convergence_high.png Graphic file (type png)
 <use pictures/convergence_high.png>
-Package pdftex.def Info: pictures/convergence_high.png  used on input line 496.
-(pdftex.def)             Requested size: 262.92477pt x 161.29082pt.
+Package pdftex.def Info: pictures/convergence_high.png  used on input line 531.
+(pdftex.def)             Requested size: 256.50577pt x 157.35309pt.
 
-Overfull \hbox (9.97978pt too wide) in paragraph at lines 496--497
+Overfull \hbox (3.56078pt too wide) in paragraph at lines 531--532
  [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-
-
-[5
-pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.515 S
-       econd, we will discuss how the connectedness of the graph can influen...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.515 S
-       econd, we will discuss how the connectedness of the graph can influen...
-pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.515 S
-       econd, we will discuss how the connectedness of the graph can influen...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.515 S
-       econd, we will discuss how the connectedness of the graph can influen... <./pictures/convergence_low.png> <./pictures/convergence_high.png>]
+[5 <./pictures/convergence_low.png> <./pictures/convergence_high.png>]
 
 
 
 [6]
-
-<pictures/bounded_confs.png, id=248, 407.66302pt x 320.81857pt>
+<pictures/bounded_confs.png, id=252, 407.66302pt x 320.81857pt>
 File: pictures/bounded_confs.png Graphic file (type png)
 <use pictures/bounded_confs.png>
-Package pdftex.def Info: pictures/bounded_confs.png  used on input line 647.
+Package pdftex.def Info: pictures/bounded_confs.png  used on input line 682.
 (pdftex.def)             Requested size: 203.83101pt x 160.40889pt.
 
 
-[7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.667 
-       <./pictures/bounded_confs.png>] (./paper.bbl)
+(./paper.bbl
+
+[7 <./pictures/bounded_confs.png>])
 
 
 
@@ -1047,21 +1051,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: E699942A595FC3EFA5C978EF07FB3CFE;2507.
+(rerunfilecheck)             Checksum: 8D2066685022F46ED6244D8A1119E2E6;2508.
  ) 
 Here is how much of TeX's memory you used:
- 37163 strings out of 473190
- 865082 string characters out of 5715799
- 1378857 words of memory out of 5000000
- 59754 multiletter control sequences out of 15000+600000
+ 38635 strings out of 473190
+ 894136 string characters out of 5715799
+ 1415125 words of memory out of 5000000
+ 61213 multiletter control sequences out of 15000+600000
  612468 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,19n,101p,1970b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (8 pages, 3398167 bytes).
+ 99i,19n,131p,1970b,920s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on paper.pdf (8 pages, 3365941 bytes).
 PDF statistics:
- 415 PDF objects out of 1000 (max. 8388607)
- 332 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 326 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
