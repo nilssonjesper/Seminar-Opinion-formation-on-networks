@@ -202,15 +202,21 @@ To determine when a consensus is reached, we first have to ensure that the model
 If the row-stochastic matrix $\mat M$, shown on the left in \cref{fig:non_convergence_heatmap}, is multiplied by itself, it takes the form that is shown on the left for uneven powers $\mat M^{2k+1}$, and the form on the right for even powers $\mat M^{2k}$. Therefore, $\lim_{k\rightarrow\infty}\mat M^k$ does not exist. The real-world counterpart for this example would be a pair of individuals who swap their two opinions at each revision.
 
 Every square matrix $\mat A \in \RR^{n\times n}$ is similar to a block diagonal matrix $\mat J \in \RR^{n\times n}$, also called the Jordan normal form of $\mat A$, meaning $\mat A = \mat T \mat J \mat T^{-1}$ for an invertible matrix $\mat T \in \RR^{n\times n}$. This Jordan matrix consists of so-called Jordan blocks, where each block $\mat{J_i}$ has the form
+% \[\mat{J_i}^k = \begin{bmatrix}
+% \lambda_i & 1 & 0 & \dots & 0 \\
+% 0 & \lambda_i & \ddots  & \ddots & \vdots \\
+% \vdots & \ddots & \ddots & 1 & 0 \\
+% 0 & \ddots & 0 & \lambda_i & 1 \\
+% 0 & 0 & \dots & 0 & \lambda_i
+% \end{bmatrix}\ , \]
+
 \[\mat{J_i}^k = \begin{bmatrix}
-\lambda_i & 1 & 0 & \dots & 0 \\
-0 & \lambda_i & \ddots  & \ddots & \vdots \\
-\vdots & \ddots & \ddots & 1 & 0 \\
-0 & \ddots & 0 & \lambda_i & 1 \\
-0 & 0 & \dots & 0 & \lambda_i
+\lambda_i & 1 &  & \makebox(0,0){\text{\huge0}} \\
+ & \lambda_i & \ddots  &  \\
+\makebox(0,0){\text{\huge0}} &  & \ddots & 1 \\
+ &  &  & \lambda_i
 \end{bmatrix}\ , \]
 where $\lambda_i$ is the i$th$ eigenvalue of $\mat A$. 
-% The size of a Jordan block $J_i$ is equal to the dimension of the eigenspace of the corresponding eigenvalue.
 
 As $\mat A^k = \mat T \mat J^k \mat T^{-1}$, %begründen/zeigen mit TJT-1T,... (t-1 & t kürzen sich)
 we can use this equation to find the limit of $\mat A^k$, as $\lim_{k\rightarrow\infty}\mat A^k = \lim_{k\rightarrow\infty} \mat T \mat J^k \mat T^{-1}$. Therefore, it suffices to show that $\mat J^k$ converges, to prove that $\mat A^k$ converges.
@@ -223,6 +229,14 @@ As the k$th$ power of a Jordan block $\mat{J_i} \in \RR^{l\times l}$ with the ei
 0 & \ddots & 0 & \lambda_i^k & \binom{k}{1}\lambda_i^{k-1}\\
 0 & 0 & \dots & 0 & \lambda_i^k
 \end{bmatrix}\ , \] % ref bullo
+
+% \[\mat{J_i}^k = \begin{bmatrix}
+% \lambda_i^k & \binom{k}{1}\lambda_i^{k-1} & \binom{k}{2}\lambda_i^{k-2} & \dots & \binom{k}{l-1}\lambda_i^{k-l+1}\\
+%  & \lambda_i^k & \binom{k}{1}\lambda_i^{k-1} & \ddots & \vdots\\
+%  &  & \ddots & \ddots & \binom{k}{2}\lambda_i^{k-2}\\
+%  & \makebox(0,0){\text{\huge0}} &  & \lambda_i^k & \binom{k}{1}\lambda_i^{k-1}\\
+%  &  &  &  & \lambda_i^k
+% \end{bmatrix}\ , \] % ref bullo
 \todo{ref something that isnt bullo}
 we can conclude the following conditions, as done in \cite{Bullo_lecture}, for the convergence of matrix $\mat A$. First, the magnitudes of all of its eigenvalues $\lambda_i$ need to be in the intervall $ -1 < |\lambda_i| \leq 1$. If $|\lambda_i| > 1$, then all non-zero entries of $\mat{J_i}$ diverge for $\lim_{k\rightarrow\infty}(\mat{J_i}^k)_{ij} = \infty$. When some Jordan block $\mat{J_i}$ diverges for $\lim_{k\rightarrow\infty}$, then trivially the Jordan matrix $\mat J$, and thus also $\mat A$, diverge as well.
 Second, if $\lambda_j = -1$ is an eigenvalue of $\mat A$, then the entries $\lambda_j$ on the diagonal of the corresponding Jordan block $\mat{J_j}$ diverge for $\lim_{k\rightarrow\infty}(\mat{J_j}^k)_{ij}$, as the powers $\lambda_j^k$ oscillate between $-1$ and $1$. Thus, $\mat A$ oscillates as well, as can be observed in \cref{fig:non_convergence_heatmap}.
@@ -406,13 +420,18 @@ Rather intuitively, we can observe that the speed of convergence is dependent on
 
 % More specifically, if we order the eigenvalue of $\mat A$, with $-1 \leq |\lambda_{m_g}| \leq \dots \leq |\lambda_2| \leq |\lambda_1| = 1$, 
 % then the speed is dependent on the size of the second largest eigenvalue $\lambda_2$. As argued in \cite{lovasz1993random}, the eigenvalue $\lambda_{m_g}$ is not as relevant, because adding self-loops to each node would result in a positive semi-definite adjacency matrix $\mat A$ and thus in strictly non-negative eigenvalues.
-
-For this $\lambda_{max}$, it trivially holds that $\lambda_{max}^k \geq \lambda_i^k$, with $k > 0$, for all eigenvalues except $\lambda_1$. Therefore, we can define the upper bound 
-\[|v_{ik} - \vec r \vec{p_0}| = O(\lambda_{max}^k)\ .\ \cite{DeMarzo}\]
-This bound describes that the distance between all opinion values at revision $k$ and the final opinion value is dependent on the size of the eigenvalue $\lambda_{max}$.
-Thus, we know for all pairs of semi-convergent, row-stochastic matrices $\mat A$ and $\mat{A^{'}}$, that if $\lambda_{max} < \lambda_{max}^{'}$, then $\lim_{k\rightarrow\infty}\mat A^k$ converges faster than $\lim_{k\rightarrow\infty}(\mat{A^{'}})^k$. This can be observed in \cref{fig:convergence_speed_quick} and \cref{fig:convergence_speed_low}. The eigenvalue $\lambda_{max}$ of the adjacency matrix used in \cref{fig:convergence_speed_low} is far smaller in magnitude, than the one of the adjacency matrix used in \cref{fig:convergence_speed_quick}. Thus, the model in \cref{fig:convergence_speed_low} converges quicker asymptotically, than the model in \cref{fig:convergence_speed_quick}, as can be seen in the figures.
+For this $\lambda_{max}$, it trivially holds that $\lambda_{max}^k \geq \lambda_i^k$, with $k > 0$, for all $i\in \{2,\dots,n\}$.
+Thus, we know for all pairs of semi-convergent, row-stochastic matrices $\mat A$ and $\mat{A^{'}}$, that if $\lambda_{max} < \lambda_{max}^{'}$, then $\lim_{k\rightarrow\infty}\mat A^k$ converges faster asymptotically than $\lim_{k\rightarrow\infty}(\mat{A^{'}})^k$. This can be observed in \cref{fig:convergence_speed_quick} and \cref{fig:convergence_speed_low}. The eigenvalue $\lambda_{max}$ of the adjacency matrix used in \cref{fig:convergence_speed_low} is far smaller in magnitude, than the one of the adjacency matrix used in \cref{fig:convergence_speed_quick}. Thus, the model in \cref{fig:convergence_speed_low} converges quicker asymptotically, than the model in \cref{fig:convergence_speed_quick}, as can be seen in the figures.
 
 Therefore, we can measure the convergence rate of an instance of the model by calculating the difference between $\lambda_1 - |\lambda_{max}|$. This eigengap between the dominant eigenvalue $\lambda_1$ and $\lambda_{max}$ is also referred to as the spectral gap. 
+
+Notice, that $\lambda_{max} = max\{\lambda_2,\lambda_n\}$, if we order the eigenvalues according to their magnitue with $-1 \leq |\lambda_n| \leq \dots \leq |\lambda_2| \leq |\lambda_1| = 1$. As mentioned in \cite{lovasz1993random}, the so-called fiedler eigenvalue $\lambda_2$ is in many applications, including the DeGroot model, the more crucial parameter for the convergence rate, instead of $\lambda_n$. We will now provide a short independent proof for this.
+\begin{proof}
+    For a given semi-convergent and row-stochastic matrix $\mat A$ and its corresponding digraph $\gG$ (see \cref{sec:reaching_consensus}), we construct the matrix $\mat{A'}$ with the entries $a^{'}_{ii} = a_{ii} + b_i = 0.5$ and $a^{'}_{ij} = a_{ij}/2$. In other words
+\end{proof}
+Therefore, we can define the upper bound 
+\[|v_{ik} - \vec r \vec{p_0}| = O(\lambda_{max}^k)\ .\ \cite{DeMarzo}\]
+This bound describes that the distance between all opinion values at revision $k$ and the final opinion value is dependent on the size of the eigenvalue $\lambda_{max}$.
 % Because of its relevance, this eigenvalue is often called the Fiedler eigenvalue in other literature.
 
 % \[\begin{bmatrix}
