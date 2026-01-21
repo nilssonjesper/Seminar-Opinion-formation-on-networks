@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  21 JAN 2026 23:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  21 JAN 2026 23:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -841,11 +841,11 @@ LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 120.
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 182.
-<pictures/heatmap_convergence.png, id=107, 963.6pt x 542.025pt>
-File: pictures/heatmap_convergence.png Graphic file (type png)
-<use pictures/heatmap_convergence.png>
-Package pdftex.def Info: pictures/heatmap_convergence.png  used on input line 187.
-(pdftex.def)             Requested size: 231.26872pt x 130.08865pt.
+<pictures/heatmap.png, id=107, 739.26187pt x 392.46625pt>
+File: pictures/heatmap.png Graphic file (type png)
+<use pictures/heatmap.png>
+Package pdftex.def Info: pictures/heatmap.png  used on input line 187.
+(pdftex.def)             Requested size: 177.42647pt x 94.19382pt.
 
 
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 240.
@@ -901,7 +901,7 @@ Overfull \hbox (9.93433pt too wide) in paragraph at lines 240--240
 
 
 
-[2 <./pictures/heatmap_convergence.png>]
+[2 <./pictures/heatmap.png>]
 Overfull \hbox (2.83992pt too wide) in paragraph at lines 282--282
 [][][]\OT1/ppl/m/n/9.53561 cite[]  
  []
@@ -967,9 +967,6 @@ Overfull \hbox (0.85669pt too wide) in paragraph at lines 318--318
  []
 
 
-Underfull \vbox (badness 1748) has occurred while \output is active []
-
-
 
 [3]
 Overfull \hbox (7.07367pt too wide) in paragraph at lines 353--353
@@ -1025,6 +1022,9 @@ Overfull \hbox (15.30301pt too wide) in paragraph at lines 428--428
 
 
 LaTeX Warning: Marginpar on page 4 moved.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1087,14 +1087,14 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  38670 strings out of 473190
- 894845 string characters out of 5715799
- 1415125 words of memory out of 5000000
+ 894761 string characters out of 5715799
+ 1416125 words of memory out of 5000000
  61243 multiletter control sequences out of 15000+600000
  614025 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,131p,1970b,921s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (8 pages, 3379536 bytes).
+Output written on paper.pdf (8 pages, 3376525 bytes).
 PDF statistics:
  424 PDF objects out of 1000 (max. 8388607)
  345 compressed objects within 4 object streams

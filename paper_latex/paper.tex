@@ -119,7 +119,7 @@ As the DeGroot model is a rather simple abstraction of opinion formation in real
 \section{Preliminaries and Notation}\label{sec:prelim_notation}
 In this paper, we use $\ones$ to denote the vector with all-ones and $\eye$ to denote the identity matrix. Similarly, the vector with all-zeros is referred to as $\zeros$. For a given vector $(.)^\T$ denotes the transpose of the vector. We use the following style for vectors $\vec p$, matrices $\mat M$, and graphs $\gG$. Moreover, $V(\gG)$ denotes the set of vertices and $E(\gG)$ the set of edges in $\gG$. For a matrix $\mat M$, the notation $(\mat M)_{ij}$ refers to the entry in the i$th$ row and j$th$ column of $\mat M$. Furthermore, we use the notation $\underline{n} = \{1,\dots,n\}$. 
 
-A row-stochastic matrix $\mat A \in \{0,1\}^{n\times n}$ is defined, such that for all its entries $a_{ij} \geq 0$ and its row vectors sum up to 1, i.e., $\sum_{j=1}^na_{ij} = 1$ for all $i \in \underline{n}$. A row-substochastic matrix $\mat A \in \{0,1\}^{n\times n}$ is a non-negative matrix for which all row vectors sum up to at most 1 and at least one row vector that sums up to less than 1, i.e., $\sum_{j=1}^na_{ij} \leq 1$ for all $j\in \underline{n}$ and $\sum_{j=1}^na_{ij} < 1$ for at least one $j\in \underline{n}$. Furthermore, a digraph describes a directed graph, meaning every edge has a direction. A graph is strongly connected if and only if every node $v \in V(\gG)$ is reachable from every other node $u \in V(\gG)$ (with $v \neq u$), i.e., there exists a directed path from every node $u$ to $v$. A sink $\gS$ is a strongly connected subgraph, i.e., $V(\gS) \subset V(\gG)$ and $E(\gS) \subset E(\gG)$, that has no node $i\in \gS$, such that there exists a node $j\notin \gS$ with $(i,j)\in E(\gG)$.
+A row-stochastic matrix $\mat A \in [0,1]^{n\times n}$ is defined, such that for all its entries $a_{ij} \geq 0$ and its row vectors sum up to 1, i.e., $\sum_{j=1}^na_{ij} = 1$ for all $i \in \underline{n}$. A row-substochastic matrix $\mat A \in [0,1]^{n\times n}$ is a non-negative matrix for which all row vectors sum up to at most 1 and at least one row vector that sums up to less than 1, i.e., $\sum_{j=1}^na_{ij} \leq 1$ for all $j\in \underline{n}$ and $\sum_{j=1}^na_{ij} < 1$ for at least one $j\in \underline{n}$. Furthermore, a digraph describes a directed graph, meaning every edge has a direction. A graph is strongly connected if and only if every node $v \in V(\gG)$ is reachable from every other node $u \in V(\gG)$ (with $v \neq u$), i.e., there exists a directed path from every node $u$ to $v$. A sink $\gS$ is a strongly connected subgraph, i.e., $V(\gS) \subset V(\gG)$ and $E(\gS) \subset E(\gG)$, that has no node $i\in \gS$, such that there exists a node $j\notin \gS$ with $(i,j)\in E(\gG)$.
 Lastly, a graph is aperiodic if and only if there exists no $k \in \NN_{>1}$, that divides the length of every simple cycle of the graph. A simple cycle refers to every possible path from any node $v$ back to itself.
 
 
@@ -185,7 +185,7 @@ To determine when a consensus is reached, we first have to ensure that the model
 \begin{figure}[H]
     \centering
         \includegraphics[scale= 0.24]{pictures/heatmap.png}
-        \caption{Top: The given graph. Bottom: A heatmap of the corresponding adjacency matrix}
+        \caption{Top: The given graph. Bottom: A heatmap of the corresponding adjacency matrix (gray: $a_{ij} = 1$, white: $a_{ij} = 0$)}
         \label{fig:non_convergence_heatmap}
 \end{figure}
 %     $\mat M = \begin{bmatrix}
