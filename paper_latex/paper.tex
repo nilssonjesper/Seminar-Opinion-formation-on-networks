@@ -210,7 +210,13 @@ Every square matrix $\mat A \in \RR^{n\times n}$ is similar to a block diagonal 
 % 0 & 0 & \dots & 0 & \lambda_i
 % \end{bmatrix}\ , \]
 
-\[\mat{J_i}^k = \begin{bmatrix}
+% \[\mat{J} = \begin{bmatrix}
+% \mat{J_i} &  & \makebox(0,0){\text{\huge0}} \\
+% \makebox(0,0){\text{\huge0}} & \ddots & \\
+%  & & \mat{J_i}
+% \end{bmatrix}\ , \]
+
+\[\mat{J_i} = \begin{bmatrix}
 \lambda_i & 1 &  & \makebox(0,0){\text{\huge0}} \\
  & \lambda_i & \ddots  &  \\
 \makebox(0,0){\text{\huge0}} &  & \ddots & 1 \\
