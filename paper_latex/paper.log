@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  26 JAN 2026 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  27 JAN 2026 15:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -756,24 +756,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
 
 -- Lines per column: 61 (exact).
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -795,43 +795,94 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 90.
+Package hyperref Info: Link coloring ON on input line 91.
  (./paper.out) (./paper.out)
 \@outlinefile=\write4
 \openout4 = `paper.out'.
 
 
 
-Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 90.
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 91.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 90.
+ on input line 91.
 
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 100.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 101.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 100.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 100.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 101.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 101.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 100.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 101.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+pzd on input line 100.
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 101.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 105.
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 106.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.03> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 105.
-LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 120.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 106.
+LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 121.
 
+
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 136.
+
+Overfull \hbox (1.67671pt too wide) in paragraph at lines 136--136
+[][][]\OT1/ppl/m/n/9.53561 too 
+ []
+
+
+Overfull \hbox (12.19455pt too wide) in paragraph at lines 136--136
+\OT1/ppl/m/n/9.53561 many 
+ []
+
+
+Overfull \hbox (0.81853pt too wide) in paragraph at lines 136--136
+\OT1/ppl/m/n/9.53561 ex- 
+ []
+
+
+Overfull \hbox (4.51846pt too wide) in paragraph at lines 136--136
+\OT1/ppl/m/n/9.53561 am- 
+ []
+
+
+Overfull \hbox (9.5053pt too wide) in paragraph at lines 136--136
+\OT1/ppl/m/n/9.53561 ples?[]  
+ []
+
+
+Overfull \hbox (1.67671pt too wide) in paragraph at lines 136--136
+[][][]\OT1/ppl/m/n/9.53561 too 
+ []
+
+
+Overfull \hbox (12.19455pt too wide) in paragraph at lines 136--136
+\OT1/ppl/m/n/9.53561 many 
+ []
+
+
+Overfull \hbox (0.81853pt too wide) in paragraph at lines 136--136
+\OT1/ppl/m/n/9.53561 ex- 
+ []
+
+
+Overfull \hbox (4.51846pt too wide) in paragraph at lines 136--136
+\OT1/ppl/m/n/9.53561 am- 
+ []
+
+
+Overfull \hbox (9.5053pt too wide) in paragraph at lines 136--136
+\OT1/ppl/m/n/9.53561 ples?[]  
+ []
 
 
 
@@ -840,105 +891,116 @@ LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 120.
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 182.
-<pictures/heatmap.png, id=107, 739.26187pt x 392.46625pt>
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 185.
+<pictures/heatmap.png, id=109, 739.26187pt x 392.46625pt>
 File: pictures/heatmap.png Graphic file (type png)
 <use pictures/heatmap.png>
-Package pdftex.def Info: pictures/heatmap.png  used on input line 187.
+Package pdftex.def Info: pictures/heatmap.png  used on input line 190.
 (pdftex.def)             Requested size: 177.42647pt x 94.19382pt.
 
-
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 246.
-
-Overfull \hbox (13.5676pt too wide) in paragraph at lines 246--246
-\OT1/ppl/m/n/9.53561 some- 
- []
-
-
-Overfull \hbox (10.43977pt too wide) in paragraph at lines 246--246
-\OT1/ppl/m/n/9.53561 thing 
- []
-
-
-Overfull \hbox (4.6899pt too wide) in paragraph at lines 246--246
-\OT1/ppl/m/n/9.53561 that 
- []
-
-
-Overfull \hbox (3.63144pt too wide) in paragraph at lines 246--246
-\OT1/ppl/m/n/9.53561 isnt 
- []
-
-
-Overfull \hbox (9.93433pt too wide) in paragraph at lines 246--246
-\OT1/ppl/m/n/9.53561 bullo[]  
- []
-
-
-Overfull \hbox (13.5676pt too wide) in paragraph at lines 246--246
-\OT1/ppl/m/n/9.53561 some- 
- []
-
-
-Overfull \hbox (10.43977pt too wide) in paragraph at lines 246--246
-\OT1/ppl/m/n/9.53561 thing 
- []
-
-
-Overfull \hbox (4.6899pt too wide) in paragraph at lines 246--246
-\OT1/ppl/m/n/9.53561 that 
- []
-
-
-Overfull \hbox (3.63144pt too wide) in paragraph at lines 246--246
-\OT1/ppl/m/n/9.53561 isnt 
- []
-
-
-Overfull \hbox (9.93433pt too wide) in paragraph at lines 246--246
-\OT1/ppl/m/n/9.53561 bullo[]  
- []
 
 
 
 [2 <./pictures/heatmap.png>]
-Overfull \hbox (2.83992pt too wide) in paragraph at lines 288--288
-[][][]\OT1/ppl/m/n/9.53561 cite[]  
+
+
+Overfull \hbox (51.71895pt too wide) in paragraph at lines 313--313
+[][][]\OT1/ppl/m/n/9.53561 abschlie^^Yender 
  []
 
 
-Overfull \hbox (2.83992pt too wide) in paragraph at lines 288--288
-[][][]\OT1/ppl/m/n/9.53561 cite[]  
+Overfull \hbox (8.18962pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 Satz: 
  []
 
 
-Overfull \hbox (17.02904pt too wide) in paragraph at lines 290--290
-[][][]\OT1/ppl/m/n/9.53561 andere 
+Overfull \hbox (11.77492pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 wenn 
  []
 
 
-Overfull \hbox (13.92972pt too wide) in paragraph at lines 290--290
-\OT1/ppl/m/n/9.53561 quelle 
+Overfull \hbox (9.93448pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 diese 
  []
 
 
-Overfull \hbox (9.93433pt too wide) in paragraph at lines 290--290
-\OT1/ppl/m/n/9.53561 bullo[]  
+Overfull \hbox (14.09189pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 eigen- 
  []
 
 
-Overfull \hbox (17.02904pt too wide) in paragraph at lines 290--290
-[][][]\OT1/ppl/m/n/9.53561 andere 
+Overfull \hbox (23.1507pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 schaften 
  []
 
 
-Overfull \hbox (13.92972pt too wide) in paragraph at lines 290--290
-\OT1/ppl/m/n/9.53561 quelle 
+Overfull \hbox (25.668pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 gegeben, 
  []
 
 
-Overfull \hbox (9.93433pt too wide) in paragraph at lines 290--290
-\OT1/ppl/m/n/9.53561 bullo[]  
+Overfull \hbox (9.84883pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 dann 
+ []
+
+
+Overfull \hbox (8.53276pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 conv[]  
+ []
+
+
+Overfull \hbox (51.71895pt too wide) in paragraph at lines 313--313
+[][][]\OT1/ppl/m/n/9.53561 abschlie^^Yender 
+ []
+
+
+Overfull \hbox (8.18962pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 Satz: 
+ []
+
+
+Overfull \hbox (11.77492pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 wenn 
+ []
+
+
+Overfull \hbox (9.93448pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 diese 
+ []
+
+
+Overfull \hbox (14.09189pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 eigen- 
+ []
+
+
+Overfull \hbox (23.1507pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 schaften 
+ []
+
+
+Overfull \hbox (25.668pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 gegeben, 
+ []
+
+
+Overfull \hbox (9.84883pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 dann 
+ []
+
+
+Overfull \hbox (8.53276pt too wide) in paragraph at lines 313--313
+\OT1/ppl/m/n/9.53561 conv[]  
+ []
+
+
+Overfull \hbox (0.85669pt too wide) in paragraph at lines 325--325
+[][][]\OT1/ppl/m/n/9.53561 ???[]  
+ []
+
+
+Overfull \hbox (0.85669pt too wide) in paragraph at lines 325--325
+[][][]\OT1/ppl/m/n/9.53561 ???[]  
  []
 
 
@@ -946,115 +1008,27 @@ LaTeX Warning: Marginpar on page 3 moved.
 
 
 
-
-Overfull \hbox (33.21982pt too wide) in paragraph at lines 311--311
-[][][]\OT1/ppl/m/n/9.53561 intuition??[]  
- []
-
-
-Overfull \hbox (33.21982pt too wide) in paragraph at lines 311--311
-[][][]\OT1/ppl/m/n/9.53561 intuition??[]  
- []
-
-
-Overfull \hbox (0.85669pt too wide) in paragraph at lines 324--324
-[][][]\OT1/ppl/m/n/9.53561 ???[]  
- []
-
-
-Overfull \hbox (0.85669pt too wide) in paragraph at lines 324--324
-[][][]\OT1/ppl/m/n/9.53561 ???[]  
- []
-
-
-
 [3]
-Overfull \hbox (7.07367pt too wide) in paragraph at lines 359--359
-[][][]\OT1/ppl/m/n/9.53561 cite?[]  
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 423--424
+\OT1/ppl/m/n/9.53561 Finally, af-ter an-a-lyz-ing when and what con-sen-sus is
  []
 
-
-Overfull \hbox (7.07367pt too wide) in paragraph at lines 359--359
-[][][]\OT1/ppl/m/n/9.53561 cite?[]  
- []
-
-
-
-
-Overfull \hbox (24.89552pt too wide) in paragraph at lines 422--422
-[][][]\OT1/ppl/m/n/9.53561 continue 
- []
-
-
-Overfull \hbox (6.43498pt too wide) in paragraph at lines 422--422
-\OT1/ppl/m/n/9.53561 here[]  
- []
-
-
-Overfull \hbox (24.89552pt too wide) in paragraph at lines 422--422
-[][][]\OT1/ppl/m/n/9.53561 continue 
- []
-
-
-Overfull \hbox (6.43498pt too wide) in paragraph at lines 422--422
-\OT1/ppl/m/n/9.53561 here[]  
- []
-
-
-Overfull \hbox (3.77452pt too wide) in paragraph at lines 434--434
-\OT1/ppl/m/n/9.53561 ally 
- []
-
-
-Overfull \hbox (15.30301pt too wide) in paragraph at lines 434--434
-\OT1/ppl/m/n/9.53561 proof?[]  
- []
-
-
-Overfull \hbox (3.77452pt too wide) in paragraph at lines 434--434
-\OT1/ppl/m/n/9.53561 ally 
- []
-
-
-Overfull \hbox (15.30301pt too wide) in paragraph at lines 434--434
-\OT1/ppl/m/n/9.53561 proof?[]  
- []
-
-
-LaTeX Warning: Marginpar on page 4 moved.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[4]
-<pictures/convergence_low.png, id=203, 430.0065pt x 320.81857pt>
+<pictures/convergence_low.png, id=189, 430.0065pt x 320.81857pt>
 File: pictures/convergence_low.png Graphic file (type png)
 <use pictures/convergence_low.png>
 Package pdftex.def Info: pictures/convergence_low.png  used on input line 522.
 (pdftex.def)             Requested size: 215.00272pt x 160.40889pt.
-<pictures/convergence_high.png, id=209, 641.2758pt x 393.3897pt>
+
+
+[4]
+<pictures/convergence_high.png, id=210, 585.26656pt x 337.7418pt>
 File: pictures/convergence_high.png Graphic file (type png)
 <use pictures/convergence_high.png>
 Package pdftex.def Info: pictures/convergence_high.png  used on input line 557.
-(pdftex.def)             Requested size: 256.50577pt x 157.35309pt.
+(pdftex.def)             Requested size: 234.10246pt x 135.09433pt.
 
-Overfull \hbox (3.56078pt too wide) in paragraph at lines 557--558
- [][] 
- []
-
-
-
-
-Overfull \hbox (15.55093pt too wide) in paragraph at lines 578--578
-[][][]\OT1/ppl/m/n/9.53561 source[]  
- []
-
-
-Overfull \hbox (15.55093pt too wide) in paragraph at lines 578--578
-[][][]\OT1/ppl/m/n/9.53561 source[]  
- []
 
 
 
@@ -1064,14 +1038,14 @@ Overfull \hbox (15.55093pt too wide) in paragraph at lines 578--578
 
 [6]
 
-<pictures/bounded_confs.png, id=266, 407.66302pt x 320.81857pt>
+<pictures/bounded_confs.png, id=271, 411.57765pt x 325.6968pt>
 File: pictures/bounded_confs.png Graphic file (type png)
 <use pictures/bounded_confs.png>
-Package pdftex.def Info: pictures/bounded_confs.png  used on input line 712.
-(pdftex.def)             Requested size: 163.06232pt x 128.32515pt.
+Package pdftex.def Info: pictures/bounded_confs.png  used on input line 716.
+(pdftex.def)             Requested size: 164.62814pt x 130.2764pt.
+(./paper.bbl
 
-
-[7 <./pictures/bounded_confs.png>] (./paper.bbl)
+[7 <./pictures/bounded_confs.png>])
 
 
 
@@ -1083,21 +1057,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 4B533B39642CCAAF8C401B838147F6A0;2564.
+(rerunfilecheck)             Checksum: 3E69F064953E97FADE35189E17C48DBF;2561.
  ) 
 Here is how much of TeX's memory you used:
- 38670 strings out of 473190
- 894761 string characters out of 5715799
- 1415125 words of memory out of 5000000
- 61243 multiletter control sequences out of 15000+600000
- 614025 words of font info for 168 fonts, out of 8000000 for 9000
+ 38622 strings out of 473190
+ 893711 string characters out of 5715799
+ 1408125 words of memory out of 5000000
+ 61201 multiletter control sequences out of 15000+600000
+ 613350 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,19n,131p,2021b,921s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,131p,1240b,912s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (8 pages, 3376564 bytes).
+Output written on paper.pdf (8 pages, 3155790 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 345 compressed objects within 4 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 426 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
