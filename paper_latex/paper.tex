@@ -186,8 +186,8 @@ To determine when a consensus is reached, we first have to ensure that the model
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale= 0.24]{pictures/heatmap.png}
-        \caption{Top: The given graph. Bottom: A heatmap of the corresponding adjacency matrix (gray: $a_{ij} = 1$, white: $a_{ij} = 0$)}
+        \includegraphics[scale= 0.27]{pictures/heatmap.png}
+        \caption{Top: The given graph. Bottom: A heatmap of the corresponding adjacency matrix (gray: $a_{ij} = 1$, white: $a_{ij} = 0$).}
         \label{fig:non_convergence_heatmap}
 \end{figure}
 %     $\mat M = \begin{bmatrix}
@@ -322,7 +322,7 @@ This means that our digraph $\gG$ is strongly connected, if and only if for ever
 
 Now, we can examine when the model reaches consensus. As stated above, all eigenvalues of a row-stochastic matrix $\mat A$ must have a magnitude of less than 1, except for the eigenvalue $\lambda_1$, for $\mat A^k$ to converge. Moreover, the eigenvalue $\lambda_1$ needs to be semisimple, for the corresponding Jordan blocks to converge.
 Therefore, if we let $m_g \in \underline{n}$ denote the geometric multiplicity (and thus also the algebraic multiplicity) of eigenvalue $\lambda_1$, then the limit of the Jordan matrix $\lim_{k\rightarrow\infty}\mat J^k$ is a diagonal matrix with a 1 in $m_g$ entries of the diagonal.
-Let $\vec{c_1},\dots,\vec{c_{m_g}}$ denote the columns of $\mat T$ and $\vec{r_1}^\T,\dots,\vec{r_{m_g}}^{\T}$ denote the rows of $\mat T^{-1}$ that correspond to the Jordan blocks for the eigenvalue $\lambda_1$. Moreover, let $(c_{i})_j$ and $(r_{i})_j$ denote the $jth$ entry of these vectors. Then
+Let $\vec{c_1},\dots,\vec{c_{m_g}}$ denote the columns of $\mat T$ and $\vec{r_1},\dots,\vec{r_{m_g}}$ denote the rows of $\mat T^{-1}$ that correspond to the Jordan blocks for the eigenvalue $\lambda_1$. Moreover, let $(c_{i})_j$ and $(r_{i})_j$ denote the $jth$ entry of these vectors. Then
 
 \begin{multline} \label{eq:col_row_A^k}
     % \lim_{k\rightarrow\infty}\mat A^k 
@@ -355,7 +355,7 @@ Let $\vec{c_1},\dots,\vec{c_{m_g}}$ denote the columns of $\mat T$ and $\vec{r_1
 
 To reach an asymptotic consensus, all rows of $\mat{A^{fin}}$ must be equal. Thus, all columns $\vec{c_1}, \dots, \vec{c_{m_g}}$ of $\mat T$ need to be equal, see \cref{eq:col_row_A^k}.
 
-As, $\mat A = \mat T\mat J\mat T^{-1} \iff \mat A\mat T = \mat T\mat J \iff \mat T^{-1}\mat A = \mat J\mat T^{-1}$, if $\lambda_1$ is semisimple, then $\mat A\vec{c_i} = \lambda_1\vec{c_i}$ and $\vec{r_i}\mat A = \lambda_1\vec{r_i}$, i.e., $\vec{c_i}$ is the right eigenvector and $\vec{r_i}^\T$ the left eigenvector of $\lambda_1$, as shown in \cite{Bullo_lecture}. Because the number of dimensions of an eigenspace is equal to the geometric multiplicity of the corresponding eigenvalue, the eigenspace of $\lambda_1$ has $m_g$ dimensions \cite{axler}.
+As, $\mat A = \mat T\mat J\mat T^{-1} \iff \mat A\mat T = \mat T\mat J \iff \mat T^{-1}\mat A = \mat J\mat T^{-1}$, if $\lambda_1$ is semisimple, then $\mat A\vec{c_i} = \lambda_1\vec{c_i}$ and $\vec{r_i}^\T\mat A = \lambda_1\vec{r_i}$, i.e., $\vec{c_i}$ is the right eigenvector and $\vec{r_i}$ the left eigenvector of $\lambda_1$, as shown in \cite{Bullo_lecture}. Because the number of dimensions of an eigenspace is equal to the geometric multiplicity of the corresponding eigenvalue, the eigenspace of $\lambda_1$ has $m_g$ dimensions \cite{axler}.
 Thus, all of the $m_g$ eigenvectors $c_i$ of $\lambda_1$ need to be linearly independent. Therefore, they cannot be equal if the geometric multiplicity $m_g>1$, meaning the rows of $\mat{A^{fin}}$ are equal if and only if $m_g = 1$, i.e., $\lambda_1$ is simple.
 
 Thus, the model reaches an asymptotic consensus if and only if the row-stochastic matrix $\mat A$ is semi-convergent and $\lambda_1$ is simple. Therefore, according to the Perron-Frobenius \cref{th:perron-frobenius}, the model converges when $\mat A$ is primitive. However, $\mat A$ being primitive is not a necessary condition to reach an asymptotic consensus. Intuitively, as all final opinion values depend on the individual $i$ corresponding to the simple eigenvalue $\lambda_1$, all other individuals must be connected to this individual $i$. Otherwise, their opinion value could not be influenced by individual $i$. Thus, the node corresponding to individual $i$ needs to be globally reachable, i.e., reachable from all other nodes. In other words, there must exist a globally reachable node, which corresponds precisely to $\lambda_1$, for the model to asymptotically reach a consensus. This condition is sufficient to determine whether asymptotic consensus is reached, see \cite{Bullo_lecture}.
@@ -380,15 +380,15 @@ However, we are interested not only in when a consensus is reached, but also in 
 %     \end{equation}
 %     where $v$ and $w$ are the right and left dominant eigenvectors of A normalized so that $v \geq0$, $w \geq0$ and $v^\T w$
 % \end{theorem}
-As we concluded in \cref{sec:reaching_consensus}, the model converges to a consensus if and only if $\mat A$ is semi-convergent and $\lambda_1$ is simple. Thus, using \cref{eq:col_row_A^k}, $\lim_{k\rightarrow\infty}\mat A^k = \vec c \cdot\vec r$, where $\vec c = [c_1, \dots, c_n]^\T$ and $\vec r = [r_1, \dots, r_n]$ are the right and left eigenvectors of $\lambda_1$.
+As we concluded in \cref{sec:reaching_consensus}, the model converges to a consensus if and only if $\mat A$ is semi-convergent and $\lambda_1$ is simple. Thus, using \cref{eq:col_row_A^k}, $\lim_{k\rightarrow\infty}\mat A^k = \vec c \cdot\vec r^\T$, where $\vec c = (c_1, \dots, c_n)^\T$ and $\vec r = (r_1, \dots, r_n)^\T$ are the right and left eigenvectors of $\lambda_1$.
  
 Because $\ones$ is an eigenvector of every row-stochastic matrix, as shown in \cref{eq:1_eigenvalue_all_row_stochastic_mat}, the right eigenvector $\vec{c}$ can be chosen as $\vec c = \ones$. Then
 \begin{equation}\label{eq:limit_A}
     \lim_{k\rightarrow\infty}\mat A^k= \ones \vec r = 
     \begin{bmatrix}
-        \vec r\\
+        \vec r^\T\\
         \vdots\\
-        \vec r
+        \vec r^\T
     \end{bmatrix}_{n\times n} = 
     \begin{bmatrix}
          r_1 & \dots &  r_n\\
@@ -400,9 +400,9 @@ To calculate the consensus, we now need to combine \cref{eq:limit_A} with \cref{
 \begin{equation}\label{eq:limit_P}
     \vec{p^{fin}} = \lim_{k\rightarrow\infty}\vec p^k = (\lim_{k\rightarrow\infty}\mat A^k)\vec{p_0} = 
     \begin{bmatrix}
-        \vec r\\
+        \vec r^\T\\
         \vdots\\
-        \vec r
+        \vec r^\T
     \end{bmatrix}_{n\times n}
     \begin{bmatrix}
         v_1\\
@@ -416,7 +416,7 @@ for all $i \in \underline{n}$.
 
 In summary, only the left eigenvector $\vec{r}$ of $\lambda_1$ of the matrix $\mat{A}$ is required, in addition to the vector of the initial opinion values $\vec{p_0}$, to calculate the final opinion values.
 
-Moreover, we can interpret the structure of this left eigenvector $\vec{r}^\T$ as a weighted average over the initial opinion values in $\vec{p_0}$. The weights intuitively depend on the centrality of the corresponding node, i.e., how many other nodes are connected to it. Thus, if, for example, a given instance of the model is not strongly connected but has one sink component (see \cref{sec:prelim_notation}), then only the weights corresponding to nodes in the sink are non-zero.
+Moreover, we can interpret the structure of this left eigenvector $\vec{r}$ as a weighted average over the initial opinion values in $\vec{p_0}$. The weights intuitively depend on the centrality of the corresponding node, i.e., how many other nodes are connected to it. Thus, if, for example, a given instance of the model is not strongly connected but has one sink component (see \cref{sec:prelim_notation}), then only the weights corresponding to nodes in the sink are non-zero.
 
 \subsubsection{Measuring the Speed of Convergence}\label{sec:speed_convergence}
 Finally, after analyzing when and what consensus is reached, we will examine whether we can measure the speed of convergence, i.e., how long it takes for the group to asymptotically reach a consensus.
@@ -425,7 +425,7 @@ Rather intuitively, we can observe that the speed of convergence depends on the 
 
 For this $\lambda_{max}$, it trivially holds that $\lambda_{max}^k \geq \lambda_i^k$, with $k > 0$, for all $i\in \{2,\dots,n\}$.
 Therefore, we can define the upper bound 
-\[|v_{ik} - \vec r \vec{p_0}| = |v_{ik} - v^{fin}_i| = O(\lambda_{max}^k)\ ,\]
+\[|v_{ik} - \vec r^\T \vec{p_0}| = |v_{ik} - v^{fin}_i| = O(\lambda_{max}^k)\ ,\]
 as in \cite{DeMarzo}.
 This bound describes that the distance between all opinion values in revision $k$ and the final opinion value depends on the size of the eigenvalue $\lambda_{max}$.
 Thus, we know for all pairs of semi-convergent, row-stochastic matrices $\mat A$ and $\mat{A^{'}}$, that if $\lambda_{max} < \lambda_{max}^{'}$, then $\lim_{k\rightarrow\infty}\mat A^k$ converges faster asymptotically than $\lim_{k\rightarrow\infty}(\mat{A^{'}})^k$. 
@@ -561,9 +561,9 @@ As concluded in an observation in \cref{sec:reaching_consensus}, the model reach
 However, according to \cite{Bullo_lecture}, the eigenvalue $\lambda_1$ is semisimple with the geometric multiplicity $m_g$ and $|\lambda_j| < 1$ for all $j \in \{2,\dots,n\}$ if and only if $\gG$ has sinks $\gS_i$ (see \cref{sec:prelim_notation}) with $i\in\underline{m_g}$, that are all aperiodic. Such graphs $\gG$, that fulfill these conditions, therefore, have semi-convergent adjacency matrices $\mat A$, see \cref{th:semi_conv}.
 Moreover, these graphs reach disagreement, instead of consensus, meaning that at least one pair of final opinion values $v_{i}^{fin} \neq v_{j}^{fin}$.
 When calculating the final opinion values, as in \cite{Bullo_lecture}, we need to differentiate between strongly connected subgraphs and sinks. As the sinks $\gS_i$ have no outgoing edges, the final opinion values of the individuals in the sinks are not dependent on other individuals outside of their sink. Therefore, the final opinion value for the nodes $j\in \gS_i$, with $i\in \underline{m_g}$, can be calculated as
-\[v_j^{fin} = \vec{r_i} \vec{p_0}\ ,\]
+\[v_j^{fin} = \vec{r_i}^\T \vec{p_0}\ ,\]
 where $\vec{r_i}$ is the corresponding left eigenvector, as in \cref{eq:limit_P}. However, the final opinion values of nodes in strongly connected subgraphs that are not sinks, i.e., that have outgoing edges to other strongly connected subgraphs, are dependent on nodes outside of their subgraph. Therefore, the final opinion value for nodes $j\notin \gS_i$, with $i\in \underline{m_g}$, is equal to
-\[v_j^{fin} = \sum_{p=1}^{m_g}z_{ji}(\vec{r_i} \vec{p_0})\ ,\]
+\[v_j^{fin} = \sum_{p=1}^{m_g}z_{ji}(\vec{r_i}^\T \vec{p_0})\ ,\]
 where $\vec{r_i}$ is the corresponding left eigenvector of the sink to which $j$ is connected. The $z_{ji}$, with $i\in \underline{m_g}$, are convex combination coefficients that are $z_{ji} > 0$ if and only if there exists a directed path from node $j$ to sink $i$.
 
 Second, we will discuss how the connectedness of the graph can influence the convergence rate of the model. The conductance $\Phi$ of a graph $\gG$ is a measure to determine how connected a graph is. Similarly to \cite{lovasz1993random}, the measure can be defined for a set $S$ of nodes as
@@ -723,7 +723,7 @@ An example of the model can be seen in \cref{fig:bounded_conf}. Although the nod
 
 \section{Conclusion and Outlook}
 In this paper, we examined the DeGroot model to analyze the formation of opinions in groups. 
-We then reproduced in \cref{th:semi_conv} under which conditions the model converges, as well as a sufficient condition (primitive matrices) and a necessary condition (existence of a globally reachable node) for a convergence towards a consensus. The paper also shows that only the left eigenvector $\vec{r^\T}$ and the vector of initial opinion values $\vec{p_0}$ are necessary to compute the consensus value. Moreover, we showed that the second largest eigenvector in magnitude $\lambda_{max}$ is a good measure for the convergence rate of the model. Furthermore, we looked at how the disagreement of graphs with multiple strongly connected subgraphs can be calculated and how the connectedness of a graph can be used as a further measure for the convergence rate. Lastly, we expanded on the DeGroot model by examining the additional features: \textit{susceptibility} and \textit{confidence bounds}.
+We then reproduced in \cref{th:semi_conv} under which conditions the model converges, as well as a sufficient condition (primitive matrices) and a necessary condition (existence of a globally reachable node) for a convergence towards a consensus. The paper also shows that only the left eigenvector $\vec{r}$ and the vector of initial opinion values $\vec{p_0}$ are necessary to compute the consensus value. Moreover, we showed that the second largest eigenvector in magnitude $\lambda_{max}$ is a good measure for the convergence rate of the model. Furthermore, we looked at how the disagreement of graphs with multiple strongly connected subgraphs can be calculated and how the connectedness of a graph can be used as a further measure for the convergence rate. Lastly, we expanded on the DeGroot model by examining the additional features: \textit{susceptibility} and \textit{confidence bounds}.
 
 In the future, further extensions that simulate other phenomena could be taken into account. For example, repulsive behavior ("negative weights") that allows for a change in the opposite direction of the other individuals opinion values \cite{chen2019opiniondynamicsbackfireeffect}, interrelated topics, as a subject rarely exists in isolation \cite{Parsegov_2017}, or a distinction between publicly versus privately expressed opinions (especially opinions on highly stigmatized topics, are often expressed only to certain individuals) \cite{Ye_2019}.
 
