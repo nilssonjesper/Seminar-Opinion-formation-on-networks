@@ -35,15 +35,15 @@ Sheldon~Jay Axler.
 \newblock {\em Linear Algebra Done Right}.
 \newblock Undergraduate Texts in Mathematics. Springer, 1997.
 
-\bibitem{lovasz1993random}
-Lovász László.
-\newblock Random walks on graphs: A survey.
-\newblock {\em Combinatorics, Paul Erdos is Eighty}, 2(1):1--46, 1993.
-
 \bibitem{DeMarzo}
 Peter~M. DeMarzo, Dimitri Vayanos, and Jeffrey Zwiebel.
 \newblock Persuasion bias, social influence, and unidimensional opinions.
 \newblock {\em The Quarterly Journal of Economics}, 118(3):909--968, 2003.
+
+\bibitem{lovasz1993random}
+Lovász László.
+\newblock Random walks on graphs: A survey.
+\newblock {\em Combinatorics, Paul Erdos is Eighty}, 2(1):1--46, 1993.
 
 \bibitem{article}
 Noah~E. Friedkin and Eugene~C. Johnsen.

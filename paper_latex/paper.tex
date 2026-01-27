@@ -424,21 +424,15 @@ Finally, after analyzing when and what consensus is reached, we will examine whe
 
 Rather intuitively, we can observe that the speed of convergence is dependent on the eigenvalues of matrix $\mat A$. As we have shown in \cref{sec:when_convergence}, the convergence of A can be represented by its Jordan matrix $\mat A^k = \mat T\mat J^k\mat T^{-1}$. The matrix $\mat J^k$ converges when all eigenvalues $|\lambda_i| < 1$, i.e., all eigenvalues except $\lambda_1$, converge against $0$, with $\lim_{k\rightarrow\infty}\lambda_i^k = 0$. Therefore, the speed of convergence is dependent on the size of the eigenvalues of $\mat A$. More specifically, the convergence rate is dependent on the largest eigenvalue $\lambda_{max}$, with $|\lambda_{max}| \geq |\lambda_i|$ for all $i \in \underline{n}$ and $\lambda_{max} \neq \lambda_1$.
 
-% More specifically, if we order the eigenvalue of $\mat A$, with $-1 \leq |\lambda_{m_g}| \leq \dots \leq |\lambda_2| \leq |\lambda_1| = 1$, 
-% then the speed is dependent on the size of the second largest eigenvalue $\lambda_2$. As argued in \cite{lovasz1993random}, the eigenvalue $\lambda_{m_g}$ is not as relevant, because adding self-loops to each node would result in a positive semi-definite adjacency matrix $\mat A$ and thus in strictly non-negative eigenvalues.
 For this $\lambda_{max}$, it trivially holds that $\lambda_{max}^k \geq \lambda_i^k$, with $k > 0$, for all $i\in \{2,\dots,n\}$.
+Therefore, we can define the upper bound 
+\[|v_{ik} - \vec r \vec{p_0}| = O(\lambda_{max}^k)\ ,\]
+as done in \cite{DeMarzo}.
+This bound describes that the distance between all opinion values at revision $k$ and the final opinion value is dependent on the size of the eigenvalue $\lambda_{max}$.
 Thus, we know for all pairs of semi-convergent, row-stochastic matrices $\mat A$ and $\mat{A^{'}}$, that if $\lambda_{max} < \lambda_{max}^{'}$, then $\lim_{k\rightarrow\infty}\mat A^k$ converges faster asymptotically than $\lim_{k\rightarrow\infty}(\mat{A^{'}})^k$. 
 This can be observed in \cref{fig:convergence_speed_quick} and \cref{fig:convergence_speed_low}. The eigenvalue $\lambda_{max}$ of the adjacency matrix used in \cref{fig:convergence_speed_low} is far smaller in magnitude, than the one of the adjacency matrix used in \cref{fig:convergence_speed_quick}. Thus, the model in \cref{fig:convergence_speed_low} converges quicker asymptotically, than the model in \cref{fig:convergence_speed_quick}, as can be seen in the figures.
 
 Therefore, we can measure the convergence rate of an instance of the model by calculating the difference between $\lambda_1 - |\lambda_{max}|$. This eigengap between the dominant eigenvalue $\lambda_1$ and $\lambda_{max}$ is also referred to as the spectral gap. 
-
-Notice, that $\lambda_{max} = max\{\lambda_2,\lambda_n\}$, if we order the eigenvalues according to their magnitue with $-1 \leq |\lambda_n| \leq \dots \leq |\lambda_2| \leq |\lambda_1| = 1$. As mentioned in \cite{lovasz1993random}, the so-called fiedler eigenvalue $\lambda_2$ is in many applications, including the DeGroot model, the more crucial parameter for the convergence rate, instead of $\lambda_n$. For a proof, see \cite{DeMarzo}.
-% \begin{proof}
-%     For a given semi-convergent and row-stochastic matrix $\mat A$ and its corresponding digraph $\gG$ (see \cref{sec:reaching_consensus}), we construct the matrix $\mat{A'}$ where the entries of the $i$-th row are changed to $a^{'}_{ii} = a_{ii} + b_i = 0.5$ and $a^{'}_{ij} = \frac{a_{ij}}{2(1-a_{ii})}$ if $a_{ii} < 0.5$. In other words, we increase all self-loops in $\gG$ to at least 0.5 in $\gG^{'}$, while refactoring the edges to all neighbours, such that their relative weights stay identical. Notice, that the maximally possible increse
-% \end{proof}
-Therefore, the upper bound 
-$|v_{ik} - \vec r \vec{p_0}| = O(\lambda_{2}^k)$ can be defined, as done in \cite{DeMarzo}.
-This bound describes that the distance between all opinion values $v_{ik}$ at revision $k$ and the final opinion value is dependent on the size of the eigenvalue $\lambda_{2}$. We will make use of the eigenvalue $\lambda_2$ in the following subsection. \todo{??}
 % Because of its relevance, this eigenvalue is often called the Fiedler eigenvalue in other literature.
 
 % \[\begin{bmatrix}
@@ -479,7 +473,7 @@ This bound describes that the distance between all opinion values $v_{ik}$ at re
 % \end{tikzpicture}
 
 \begin{table}[H]
-\caption{Adjacency matrix used in \cref{fig:convergence_speed_quick} with $\lambda_2 \approx -0.718$.}
+\caption{Adjacency matrix used in \cref{fig:convergence_speed_quick} with $|\lambda_{max}| \approx 0.932$.}
 \label{tb:heatmap_low}
 \centering
 \pgfplotstabletypeset[
@@ -524,7 +518,7 @@ This bound describes that the distance between all opinion values $v_{ik}$ at re
         \label{fig:convergence_speed_quick}
 \end{figure}
 
-\begin{table}[H]\caption{Adjacency matrix used in \cref{fig:convergence_speed_low} with $\lambda_2 \approx 0.433$.}\label{tb:heatmap_high}
+\begin{table}[H]\caption{Adjacency matrix used in \cref{fig:convergence_speed_low} with $|\lambda_{max}| \approx 0.449$.}\label{tb:heatmap_high}
 \centering
 \pgfplotstabletypeset[
     color cells,
@@ -576,8 +570,8 @@ where $\vec{r_i}$ is the corresponding left eigenvector and $z_{jp}$, with $p\in
 Second, we will discuss how the connectedness of the graph can influence the convergence rate of the model. The conductance $\Phi$ of a graph $\gG$ is a measure to determine how connected a graph is. Similarly to \cite{lovasz1993random}, the measure is defined for a set $S$ of nodes as
 \[\Phi(S) = \frac{\sum_{i\in S,j\notin S}a_{ij}}{min(\sum_{i\in S}\delta(i),\sum_{i\notin S}\delta(i))} = \frac{\sum_{i\in S,j\notin S}a_{ij}}{min(|S|,|V(\gG)\backslash S|)},\]
 where $\delta(i)=\sum_{j\in V(\gG)}a_{ij} = 1$ is the sum of the weights of all outgoing edges from node $i$. The numerator $\sum_{i\in S,j\notin S}a_{ij}$ is the sum of the weights of the edges from $S$ to $V(\gG)\backslash S$, i.e., it describes how much combined weight the nodes in $S$ give to those in $V(\gG)\backslash S$. Therefore, the conductance of a set of nodes $S$ measures the connectedness of $S$ and $V(\gG)\backslash S$ compared to how connected the sets are themselves. For a graph $\gG$, its conductance is defined as $\Phi(\gG) = \min_{S\subset V(\gG)}\Phi(S)$. Thus, if the conductance of a graph $\gG$ is low, there exists a partition of the nodes into two sets ($S$ and $V(\gG)\backslash S$), such that the nodes $i,j \in S$ or $i,j \notin S$ are highly connected, while nodes $i\in S,\ j\notin  S$ are only sparsely connected. However, if the conductance of the graph $\gG$ is large, then the entirety of $\gG$ is highly connected. As shown in \cite{lovasz1993random}, this measure of conductance can be used to find the upper and lower bounds
-\[\frac{\Phi^2}{8}\leq 1-\lambda_2 \leq \Phi,\]
-for the eigenvalue $\lambda_2$. These bounds imply that a higher conductance, i.e., connectedness, of the graph, results in a higher spectral gap and therefore smaller eigenvalue $\lambda_2$. Because we observed that $\lambda_2$ is an upper bound for the convergence rate of the model, in \cref{sec:speed_convergence}, we can conclude that highly connected graphs tend to converge faster, than sparsely connected ones. This correlation can be observed in \cref{fig:convergence_speed_quick} and \cref{fig:convergence_speed_low}.
+\[\frac{\Phi^2}{8}\leq 1-\lambda_{max} \leq \Phi,\]
+for the eigenvalue $\lambda_{max}$. These bounds imply that a higher conductance, i.e., connectedness, of the graph, results in a higher spectral gap and therefore smaller eigenvalue $\lambda_{max}$. Because we observed that $\lambda_{max}$ is an upper bound for the convergence rate of the model, in \cref{sec:speed_convergence}, we can conclude that highly connected graphs tend to converge faster, than sparsely connected ones. This correlation can be observed in \cref{fig:convergence_speed_quick} and \cref{fig:convergence_speed_low}.
 
 % \todo{(Weight-balanced $\rightarrow$ average consensus)}Lastly, we \dots weight-balanced graphs. \dots
 
